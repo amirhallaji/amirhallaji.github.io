@@ -6,11 +6,11 @@ import './MainPage.css';
 const MainPage = () => {
       return (
             <div id='container' style={{minHeight:window.innerHeight}}>
-                  <div>
-
+                  <div id='container-left'>
+                        hi
                   </div>
-                  <div>
-                        
+                  <div id='container=right'>
+
                   </div>
 
             </div>

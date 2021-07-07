@@ -5,7 +5,13 @@ import './MainPage.css';
 
 const MainPage = () => {
       return (
-            <div>
+            <div id='container' style={{minHeight:window.innerHeight}}>
+                  <div>
+
+                  </div>
+                  <div>
+                        
+                  </div>
 
             </div>
       )

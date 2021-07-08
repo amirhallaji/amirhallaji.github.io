@@ -1,10 +1,7 @@
 #container {
-      display: flex;
-      flex-direction: column;
-
-      position: relative;
-      overflow: hidden;
+      display: block;
       margin: 0;
+      overflow: hidden;
 }
 
 #navbar {
@@ -12,7 +9,7 @@
       border-radius: 30px;
       display: flex;
       flex-direction: row;
-      width: 70%;
+      width: 65%;
       padding: 10px;
       /* height: 10vh; */
       z-index: 1;
@@ -23,6 +20,48 @@
       margin: auto;
       position: fixed;
 }
+
+
+#wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      background-color: black;
+
+      /* position: relative;  */
+      width: 100%;
+      height: 100%;
+
+}
+
+#wrapper-left {
+      width: 40%;
+      top: 0;
+      left: 0;
+      background-image: url('../../images/amir.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      height: 100%;
+      position: fixed;
+
+}
+
+#wrapper-right {
+      width: 60%;
+      right: 0;
+      top: 0;
+      background-color: antiquewhite;
+      /* position: fixed; */
+}
+
+.sections {
+      background-color: aqua;
+      height: 500px;
+      font-family: my;
+}
+
 
 .navbar-item {
       margin: 15px;
@@ -35,39 +74,4 @@
       background-color: orange;
       height: 50px;
       /* padding: 20px; */
-}
-
-
-
-#wrapper {
-      background-color: #414A52 ;
-      margin: 0;
-      overflow: hidden;
-      position: relative;
-      width: 100%;
-      height: 100%;
-
-      display: flex;
-      flex-direction: row;
-
-}
-
-#wrapper-left {
-      width: 40%;
-      background-image: url('../../images/amir.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 100vh;
-      position: fixed;
-
-}
-
-#wrapper-right {
-      width: 60%;
-      background-color: antiquewhite;
-}
-
-.sections {
-      background-color: aqua;
-      height: 500px;
 }

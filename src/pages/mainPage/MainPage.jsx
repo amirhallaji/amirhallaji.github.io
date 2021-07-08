@@ -6,6 +6,9 @@ import "./MainPage.css";
 // Components
 import { Button } from "antd";
 
+// Image
+import amir from '../../images/amir.jpg';
+
 const MainPage = () => {
   const iconFunction = () => {
     let x = document.getElementById("navbar");
@@ -50,7 +53,7 @@ const MainPage = () => {
       </div>
 
       <div id="wrapper">
-        <div id="wrapper-left"></div>
+        <img id="wrapper-left" src={amir}></img>
         <div id="wrapper-right" style={{ minHeight: window.innerHeight }}>
           <div className="sections">
             <h1 className="sections-headers">About</h1>

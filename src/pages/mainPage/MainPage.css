@@ -1,180 +1,45 @@
-#container {
-      display: block;
-      margin: 0;
-      overflow: hidden;
-}
-
-#navbar {
-      background-color:#5D6D7E ;
-      border-radius: 30px;
-      display: flex;
-      flex-direction: row;
-      width: 65%;
-      padding: 10px;
-      /* height: 10vh; */
-      z-index: 1;
-      left: 0;
-      right: 0;
-      top: 20px;
-      justify-content: center;
-      margin: auto;
-      position: fixed;
-}
-
 
 #wrapper {
       display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-
-      background-color: black;
-
-      position: absolute; 
-      width: 100%;
-      /* height: 100%; */
-
+      overflow: hidden;
+      height: 100vh;
 }
 
 #wrapper-left {
-      width: 45%;
-      top: 0;
-      left: 0;
-      background-image: url('../../images/amir.jpg');
-      background-size: cover;
-      background-repeat: no-repeat;
-
       height: 100%;
-      position: fixed;
-
 }
 
 #wrapper-right {
-      width: 55%;
-      right: 0;
-      top: 0;
-      background-color: #414A52;
-      position: absolute;
-      flex-grow: 10;
+      overflow: auto;
+      background-color: #5D6D7E;
 }
 
-.sections {
-      background-color: #414A52;
-      height: 400px;
-      font-family: my;
+#navbar {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #5D6D7E;
+      border-radius: 30px;
+      width: 50%;
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-around;
 }
-
-.sections-headers {
-      margin-left: 30px;
-      font-size: 60px;
-      color: white;
-}
-
-.sections-headers::first-letter {
-      font-size: 100px;
-}
-
-.sections-headers:first-of-type {
-      margin-top: 80px;
-}
-
-.sections-paragraphs {
-      color: white;
-      font-size: 25px;
-      margin-left: 30px;
-}
-
 
 .navbar-item {
-      margin: 15px;
-      font-size: 25px;
-      font-family: my; 
-      color: #F5B041;    
-      font-weight: bold;
+      font-family: my;
+      font-size: 20px;
+      color: #F5B041;
 }
 
 .navbar-icon {
       display: none;
 }
 
-.ant-btn {
-      background-color: #F5B041;
-      color:#414A52;
-      height: 50px;
-      margin-left: 30px;
-}
+@media screen and(max-width:1024px){
 
-.ant-btn::after {
-      background-color: #F5B041;
-
-}
-
-
-@media screen and (max-width: 1000px) {
-
-      #container {
-            display: block;
-            /* flex-direction: column; */
-            width: 100%;
+      .navbar-icon {
+            display: block;     
       }
-
-      #wrapper {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            padding-top: 200px;
-            z-index: 100;
-            /* position: initial; */
-      }
-
-
-      #wrapper-left {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            height: 100%;
-            background-image: url('../../images/amir.jpg');
-            /* position: absolute; */
-            position: fixed;
-      }
-
-      #wrapper-right {
-            position: absolute;
-            width: 100%;
-            
-      }
-
-
-
-      #navbar a:not(:first-child){
-            display: none;
-      }
-      #navbar a.navbar-icon {
-            float: right;
-            display: block;
-      }
-
-      #navbar.responsive {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-      }
-      
-      #navbar.responsive.navbar-icon {
-            top: 0;
-            right: 0;
-            position: relative;
-            font-size: 25px;
-      }
-      #navbar.responsive a {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            background-color: aqua;
-
-      }
-
-      .navbar-item {
-            display: none;
-      }
-
 }

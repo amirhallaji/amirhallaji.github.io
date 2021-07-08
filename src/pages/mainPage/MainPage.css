@@ -103,3 +103,18 @@
       background-color: #F5B041;
 
 }
+
+
+@media screen and (max-width: 1000px) {
+
+      #container {
+            display: flex;
+            flex-direction: column;
+      }
+
+      #wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+      }
+}

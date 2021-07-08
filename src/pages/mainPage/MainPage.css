@@ -92,6 +92,10 @@
       font-weight: bold;
 }
 
+.navbar-item:not(:last-child) {
+      display: none;
+}
+
 .ant-btn {
       background-color: #F5B041;
       color:#414A52;
@@ -110,6 +114,8 @@
       #container {
             display: flex;
             flex-direction: column;
+            height: 100%;
+            position: relative;
       }
 
       #wrapper {
@@ -118,10 +124,26 @@
             justify-content: space-between;
       }
 
+
+      #wrapper-left {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+      }
+
+      #wrapper-right {
+            position: absolute;
+            width: 100%;
+            
+      }
+
       #navbar {
             display: flex;
             flex-direction: column;
             align-items: center;
+            width: 100%;
       }
 
 

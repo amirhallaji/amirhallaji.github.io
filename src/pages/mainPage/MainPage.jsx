@@ -7,6 +7,15 @@ import "./MainPage.css";
 import { Button } from "antd";
 
 const MainPage = () => {
+  const iconFunction = () => {
+    let x = document.getElementById("navbar");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+  };
+
   return (
     <div id="container">
       <div id="navbar">
@@ -31,6 +40,13 @@ const MainPage = () => {
         <a className="navbar-item" href="#Contact">
           Contact
         </a>
+        <a
+          className="navbar-icon"
+          href="javascript:void(0)"
+          onClick={iconFunction}
+        >
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
 
       <div id="wrapper">
@@ -38,7 +54,7 @@ const MainPage = () => {
         <div id="wrapper-right" style={{ minHeight: window.innerHeight }}>
           <div className="sections">
             <h1 className="sections-headers">About</h1>
-            <p className='section-paragraphs'>
+            <p className="section-paragraphs">
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
               Engineering at Shahid Beheshti University.
@@ -50,7 +66,7 @@ const MainPage = () => {
 
           <div className="sections">
             <h1 className="sections-headers">Experience</h1>
-            <p className='sections-paragraphs'>
+            <p className="sections-paragraphs">
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
               Engineering at Shahid Beheshti University.
@@ -62,7 +78,7 @@ const MainPage = () => {
 
           <div className="sections">
             <h1 className="sections-headers">Projects</h1>
-            <p className='sections-paragraphs'>
+            <p className="sections-paragraphs">
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
               Engineering at Shahid Beheshti University.
@@ -74,7 +90,7 @@ const MainPage = () => {
 
           <div className="sections">
             <h1 className="sections-headers">Skills</h1>
-            <p className='sections-paragraphs'>
+            <p className="sections-paragraphs">
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
               Engineering at Shahid Beheshti University.
@@ -86,10 +102,15 @@ const MainPage = () => {
 
           <div className="sections">
             <h1 className="sections-headers">Resume</h1>
-            <p className='sections-paragraphs'>
+            <p className="sections-paragraphs">
               Press the button to Download my CV.
             </p>
-            <Button className="navbar-item" type="primary" shape="round" onClick={{}}>
+            <Button
+              className="navbar-item"
+              type="primary"
+              shape="round"
+              onClick={{}}
+            >
               Download CV
             </Button>
           </div>
@@ -98,7 +119,7 @@ const MainPage = () => {
 
           <div className="sections">
             <h1 className="sections-headers">Contact</h1>
-            <p className='sections-paragraphs'>
+            <p className="sections-paragraphs">
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
               Engineering at Shahid Beheshti University.

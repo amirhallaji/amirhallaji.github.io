@@ -24,12 +24,12 @@ const MainPage = () => {
         <div id="wrapper-left"></div>
         <div id="wrapper-right" style={{minHeight:window.innerHeight}}>
           <div className='sections'>
-            <h1>Home</h1>
+            <h1 className='sections-headers'>Home</h1>
             <p>I am a B.SC student studying computer Engineering at Shahid Beheshti University.I am a B.SC student studying computer Engineering at Shahid Beheshti University.</p>
             <p>I love to learn and experience new things in this world.</p>
           </div>
           <div className='sections'>
-            <h1>About</h1>
+            <h1 className='sections-headers'>About</h1>
             <p></p>
             
           </div>

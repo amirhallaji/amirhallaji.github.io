@@ -73,6 +73,10 @@
       font-size: 100px;
 }
 
+.sections-headers:first-of-type {
+      margin-top: 80px;
+}
+
 .sections-paragraphs {
       color: white;
       font-size: 25px;
@@ -97,5 +101,5 @@
 
 .ant-btn::after {
       background-color: #F5B041;
-      
+
 }

@@ -21,7 +21,14 @@ const MainPage = () => {
 
       <div id="wrapper">
         <div id="wrapper-left">fff</div>
-        <div id="wrapper=right">ddd</div>
+        <div id="wrapper-right" style={{minHeight:window.innerHeight}}>
+          <div>
+            home
+          </div>
+          <div>
+            about
+          </div>
+        </div>
       </div>
     </div>
   );

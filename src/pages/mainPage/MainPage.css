@@ -117,4 +117,12 @@
             flex-direction: column;
             justify-content: space-between;
       }
+
+      #navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      }
+
+
 }

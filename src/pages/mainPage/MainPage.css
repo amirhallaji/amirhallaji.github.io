@@ -92,7 +92,7 @@
       font-weight: bold;
 }
 
-.navbar-item:not(:last-child) {
+.navbar-icon {
       display: none;
 }
 
@@ -139,12 +139,39 @@
             
       }
 
-      #navbar {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
+
+
+      #navbar a:not(:first-child){
+            display: none;
+      }
+      #navbar a.navbar-icon {
+            float: right;
+            display: block;
       }
 
+}
 
+@media screen and (max-width:1000px){
+
+      #navbar.responsive {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+      }
+      
+      #navbar.responsive.navbar-icon {
+            top: 0;
+            right: 0;
+            position: relative;
+      }
+      #navbar.responsive a {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            background-color: aqua;
+
+      }
+      .navbar-item {
+            display: none;
+      }
 }

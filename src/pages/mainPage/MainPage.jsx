@@ -10,12 +10,13 @@ import { Button } from "antd";
 import amir from '../../images/amir.jpg';
 
 const MainPage = () => {
+
   const iconFunction = () => {
     let x = document.getElementById("navbar");
     if (x.className === "navbar") {
-      x.className += " responsive";
+      x.classList.add('responsive');
     } else {
-      x.className = "navbar";
+      x.classList.remove('responsive');
     }
   };
 
@@ -54,7 +55,7 @@ const MainPage = () => {
 
       <div id="wrapper">
         <div id="wrapper-left" ></div>
-        <div id="wrapper-right" style={{ minHeight: window.innerHeight }}>
+        <div id="wrapper-right">
           <div className="sections" id='About'>
             <h1 className="sections-headers" >About</h1>
             <p className="section-paragraphs">
@@ -108,13 +109,13 @@ const MainPage = () => {
             <p className="sections-paragraphs">
               Press the button to Download my CV.
             </p>
-            <Button
+            <a><Button
               type="primary"
               shape="round"
               onClick={{}}
             >
               Download CV
-            </Button>
+            </Button></a>
           </div>
 
           <hr />

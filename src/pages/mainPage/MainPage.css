@@ -1,7 +1,7 @@
 
 #wrapper {
       display: flex;
-      /* overflow: hidden; */
+      overflow: hidden;
       height: 100vh;
 }
 
@@ -103,6 +103,18 @@
 
       #wrapper-right {
             width: 100%;
-            height: 50vh;
+            min-height: 50vh;
+      }
+
+      #navbar.responsive {
+            width: auto;
+            flex-direction: column;
+            border-radius: 5px;
+            height: 100px;
+      }
+
+      #navbar.responsive .navbar-item {
+            display: block;
+            width: 100%;
       }
 }

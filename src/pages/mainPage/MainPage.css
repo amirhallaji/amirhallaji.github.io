@@ -8,11 +8,15 @@
 #wrapper-left {
       height: 100%;
       width: 45%;
+      background-image: url('../../images/amir.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
 }
 
 #wrapper-right {
       width:55%;
-      padding-top: 100px;
+      /* padding-top: 100px; */
       overflow: auto;
       background-color: #414A52;
 }
@@ -21,7 +25,7 @@
       min-height: 400px;
       font-size: 20px;
       color: white;
-      padding: 50px;
+      padding: 70px;
 }
 
 .sections-headers {
@@ -32,6 +36,14 @@
 
 .sections-headers::first-letter {
       font-size: 70px;
+}
+
+.ant-btn {
+      background-color: #F5B041;
+      color: white !important;
+      padding: 10px;
+      width: auto;
+      height: auto;
 }
 
 #navbar {

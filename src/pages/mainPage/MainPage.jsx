@@ -53,10 +53,10 @@ const MainPage = () => {
       </div>
 
       <div id="wrapper">
-        <img id="wrapper-left" src={amir}></img>
+        <div id="wrapper-left" ></div>
         <div id="wrapper-right" style={{ minHeight: window.innerHeight }}>
-          <div className="sections">
-            <h1 className="sections-headers">About</h1>
+          <div className="sections" id='About'>
+            <h1 className="sections-headers" >About</h1>
             <p className="section-paragraphs">
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
@@ -67,8 +67,8 @@ const MainPage = () => {
 
           <hr />
 
-          <div className="sections">
-            <h1 className="sections-headers">Experience</h1>
+          <div className="sections" id='Experience'>
+            <h1 className="sections-headers" >Experience</h1>
             <p className="sections-paragraphs">
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
@@ -79,8 +79,20 @@ const MainPage = () => {
 
           <hr />
 
-          <div className="sections">
-            <h1 className="sections-headers">Projects</h1>
+          <div className="sections" id='Projects'>
+            <h1 className="sections-headers" >Projects</h1>
+            <p className="sections-paragraphs" >
+              I am a B.SC student studying computer Engineering at Shahid
+              Beheshti University.I am a B.SC student studying computer
+              Engineering at Shahid Beheshti University.
+            </p>
+            <p>I love to learn and experience new things in this world.</p>
+          </div>
+
+          <hr />
+
+          <div className="sections" id='Skills'>
+            <h1 className="sections-headers" >Skills</h1>
             <p className="sections-paragraphs">
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
@@ -91,20 +103,8 @@ const MainPage = () => {
 
           <hr />
 
-          <div className="sections">
-            <h1 className="sections-headers">Skills</h1>
-            <p className="sections-paragraphs">
-              I am a B.SC student studying computer Engineering at Shahid
-              Beheshti University.I am a B.SC student studying computer
-              Engineering at Shahid Beheshti University.
-            </p>
-            <p>I love to learn and experience new things in this world.</p>
-          </div>
-
-          <hr />
-
-          <div className="sections">
-            <h1 className="sections-headers">Resume</h1>
+          <div className="sections" id='Resume'>
+            <h1 className="sections-headers" >Resume</h1>
             <p className="sections-paragraphs">
               Press the button to Download my CV.
             </p>
@@ -120,9 +120,9 @@ const MainPage = () => {
 
           <hr />
 
-          <div className="sections">
-            <h1 className="sections-headers">Contact</h1>
-            <p className="sections-paragraphs">
+          <div className="sections" id='Contact'>
+            <h1 className="sections-headers" >Contact</h1>
+            <p className="sections-paragraphs" >
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
               Engineering at Shahid Beheshti University.

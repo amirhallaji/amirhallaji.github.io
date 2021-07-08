@@ -7,11 +7,31 @@
 
 #wrapper-left {
       height: 100%;
+      width: 45%;
 }
 
 #wrapper-right {
+      width:55%;
+      padding-top: 100px;
       overflow: auto;
-      background-color: #5D6D7E;
+      background-color: #414A52;
+}
+
+.sections {
+      min-height: 400px;
+      font-size: 20px;
+      color: white;
+      padding: 50px;
+}
+
+.sections-headers {
+      color: white;
+      font-size: 40px;
+      font-family: my;
+}
+
+.sections-headers::first-letter {
+      font-size: 70px;
 }
 
 #navbar {
@@ -37,9 +57,14 @@
       display: none;
 }
 
-@media screen and(max-width:1024px){
+@media screen and (max-width:1024px){
 
       .navbar-icon {
-            display: block;     
+            display: block;  
+            color:#F5B041;   
+      }
+
+      .navbar-item {
+            display: none;
       }
 }

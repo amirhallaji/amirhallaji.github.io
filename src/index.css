@@ -15,3 +15,8 @@ code {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: my;
+  src: url('./fonts/BebasNeue-Regular.ttf');
+}

@@ -1,7 +1,7 @@
 
 #wrapper {
       display: flex;
-      overflow: hidden;
+      /* overflow: hidden; */
       height: 100vh;
 }
 
@@ -57,6 +57,7 @@
       padding: 20px 0;
       display: flex;
       justify-content: space-around;
+      align-items: center;
 }
 
 .navbar-item {
@@ -78,5 +79,30 @@
 
       .navbar-item {
             display: none;
+      }
+
+      #navbar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            right: 10px;
+            transform: none;
+            left: unset;
+      }
+
+      #wrapper {
+            flex-direction: column;
+      }
+
+      #wrapper-left {
+            width: 100%;
+            height: 50vh;
+            flex-shrink: 0;
+            background-position-y: -200px;
+      }
+
+      #wrapper-right {
+            width: 100%;
+            height: 50vh;
       }
 }

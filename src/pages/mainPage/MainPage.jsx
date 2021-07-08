@@ -109,7 +109,6 @@ const MainPage = () => {
               Press the button to Download my CV.
             </p>
             <Button
-              className="navbar-item"
               type="primary"
               shape="round"
               onClick={{}}

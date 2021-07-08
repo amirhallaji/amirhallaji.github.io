@@ -31,7 +31,6 @@ const MainPage = () => {
         <a className="navbar-item" href="#Contact">
           Contact
         </a>
-        {/* <Button className='navbar-item' type='primary' shape='round'>Download CV</Button> */}
       </div>
 
       <div id="wrapper">
@@ -39,17 +38,19 @@ const MainPage = () => {
         <div id="wrapper-right" style={{ minHeight: window.innerHeight }}>
           <div className="sections">
             <h1 className="sections-headers">About</h1>
-            <p>
+            <p className='section-paragraphs'>
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
               Engineering at Shahid Beheshti University.
             </p>
             <p>I love to learn and experience new things in this world.</p>
           </div>
+
+          <hr />
 
           <div className="sections">
             <h1 className="sections-headers">Experience</h1>
-            <p>
+            <p className='sections-paragraphs'>
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
               Engineering at Shahid Beheshti University.
@@ -57,36 +58,47 @@ const MainPage = () => {
             <p>I love to learn and experience new things in this world.</p>
           </div>
 
-          <div className='sections'>
-            <h1 className='sections-headers'>Projects</h1>
-            <p>I am a B.SC student studying computer Engineering at Shahid Beheshti University.I am a B.SC student studying computer Engineering at Shahid Beheshti University.</p>
+          <hr />
+
+          <div className="sections">
+            <h1 className="sections-headers">Projects</h1>
+            <p className='sections-paragraphs'>
+              I am a B.SC student studying computer Engineering at Shahid
+              Beheshti University.I am a B.SC student studying computer
+              Engineering at Shahid Beheshti University.
+            </p>
             <p>I love to learn and experience new things in this world.</p>
           </div>
 
+          <hr />
 
           <div className="sections">
             <h1 className="sections-headers">Skills</h1>
-            <p>
+            <p className='sections-paragraphs'>
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
               Engineering at Shahid Beheshti University.
             </p>
             <p>I love to learn and experience new things in this world.</p>
           </div>
+
+          <hr />
 
           <div className="sections">
             <h1 className="sections-headers">Resume</h1>
-            <p>
-              I am a B.SC student studying computer Engineering at Shahid
-              Beheshti University.I am a B.SC student studying computer
-              Engineering at Shahid Beheshti University.
+            <p className='sections-paragraphs'>
+              Press the button to Download my CV.
             </p>
-            <p>I love to learn and experience new things in this world.</p>
+            <Button className="navbar-item" type="primary" shape="round" onClick={{}}>
+              Download CV
+            </Button>
           </div>
+
+          <hr />
 
           <div className="sections">
             <h1 className="sections-headers">Contact</h1>
-            <p>
+            <p className='sections-paragraphs'>
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
               Engineering at Shahid Beheshti University.

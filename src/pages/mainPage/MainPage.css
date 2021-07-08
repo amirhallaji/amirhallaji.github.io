@@ -5,7 +5,7 @@
 }
 
 #navbar {
-      background-color:#414A52;
+      background-color:#5D6D7E ;
       border-radius: 30px;
       display: flex;
       flex-direction: row;
@@ -52,33 +52,50 @@
       width: 55%;
       right: 0;
       top: 0;
-      background-color: antiquewhite;
+      background-color: #414A52;
       position: absolute;
       flex-grow: 10;
 }
 
 .sections {
-      background-color: aqua;
-      height: 500px;
+      background-color: #414A52;
+      height: 400px;
       font-family: my;
 }
 
 .sections-headers {
-      /* margin-top: 100px; */
-      top: 100px;
       margin-left: 30px;
       font-size: 60px;
+      color: white;
+}
+
+.sections-headers::first-letter {
+      font-size: 100px;
+}
+
+.sections-paragraphs {
+      color: white;
+      font-size: 25px;
+      margin-left: 30px;
 }
 
 
 .navbar-item {
       margin: 15px;
       font-size: 25px;
-      font-family: my;     
+      font-family: my; 
+      color: #F5B041;    
+      font-weight: bold;
 }
 
 .ant-btn {
-      background-color: orange;
+      background-color: #F5B041;
+      color:#414A52;
       height: 50px;
-      /* padding: 20px; */
+      margin-left: 30px;
+}
+
+.ant-btn::after {
+      background-color: #F5B041;
+      
 }

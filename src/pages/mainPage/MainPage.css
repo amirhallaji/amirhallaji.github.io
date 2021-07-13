@@ -107,14 +107,15 @@
       }
 
       #navbar.responsive {
-            width: auto;
+            width: 100%;
             flex-direction: column;
             border-radius: 5px;
-            height: 100px;
+            height: auto;
       }
 
       #navbar.responsive .navbar-item {
             display: block;
             width: 100%;
+            text-align: center;
       }
 }

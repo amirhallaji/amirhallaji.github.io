@@ -18,28 +18,34 @@ const MainPage = () => {
     }
   };
 
+  const disappearNav = () => {
+    let x = document.getElementById("navbar");
+    if (x.className === 'responsive')
+      x.classList.remove('responsive');
+  };
+
   return (
     <div id="container">
       <div id="navbar">
-        <a className="navbar-item" href="/">
+        <a className="navbar-item" href="/" onClick={disappearNav}>
           Home
         </a>
-        <a className="navbar-item" href="#About">
+        <a className="navbar-item" href="#About" onClick={disappearNav} >
           About
         </a>
-        <a className="navbar-item" href="#Experience">
+        <a className="navbar-item" href="#Experience" onClick={disappearNav}>
           Experience
         </a>
-        <a className="navbar-item" href="#Projects">
+        <a className="navbar-item" href="#Projects" onClick={disappearNav}>
           Projects
         </a>
-        <a className="navbar-item" href="#Skills">
+        <a className="navbar-item" href="#Skills" onClick={disappearNav}>
           Skills
         </a>
-        <a className="navbar-item" href="#Resume">
+        <a className="navbar-item" href="#Resume" onClick={disappearNav}>
           Resume
         </a>
-        <a className="navbar-item" href="#Contact">
+        <a className="navbar-item" href="#Contact" onClick={disappearNav}>
           Contact
         </a>
         <a

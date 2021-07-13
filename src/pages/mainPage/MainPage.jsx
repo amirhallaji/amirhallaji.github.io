@@ -6,14 +6,12 @@ import "./MainPage.css";
 // Components
 import { Button } from "antd";
 
-// Image
-import amir from '../../images/amir.jpg';
 
 const MainPage = () => {
 
   const iconFunction = () => {
     let x = document.getElementById("navbar");
-    if (x.className === "navbar") {
+    if (x.className === "") {
       x.classList.add('responsive');
     } else {
       x.classList.remove('responsive');

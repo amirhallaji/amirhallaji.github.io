@@ -98,7 +98,7 @@
             width: 100%;
             height: 50vh;
             flex-shrink: 0;
-            background-position-y: -200px;
+            background-position-y: -150px;
       }
 
       #wrapper-right {
@@ -121,5 +121,15 @@
 
       #navbar.responsive .clicked {
             display: none;
+      }
+
+}
+
+@media screen and (max-width: 710px){
+      #wrapper-left {
+            width: 100%;
+            background-position-y: -0px;
+            /* background-position-x: 50px; */
+
       }
 }

@@ -74,7 +74,9 @@
 
 .sections-skills {
       display: flex; 
-      justify-content: space-between;
+      /* justify-content: space-between;
+       */
+       flex-flow: row wrap;
 }
 
 .sections-skills-items {

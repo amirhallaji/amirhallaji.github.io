@@ -108,6 +108,11 @@ const MainPage = () => {
             <p className="sections-paragraphs">
               <div className='sections-skills'>
 
+                
+              <div className='sections-skills-items'> Teaching
+              <CircleProgress percentage={80} strokeWidth={8} width={'130'} primaryColor={['white', 'black']}  />
+              </div>
+
               <div className='sections-skills-items'>React JS
               <CircleProgress percentage={65} strokeWidth={8} width={'130'} primaryColor={['orange', 'white']} />
               </div>
@@ -123,6 +128,12 @@ const MainPage = () => {
               <div className='sections-skills-items'> C, C++
               <CircleProgress percentage={80} strokeWidth={8} width={'130'} primaryColor={['blue', 'purple']}  />
               </div>
+
+              <div className='sections-skills-items'> Pandas
+              <CircleProgress percentage={80} strokeWidth={8} width={'130'} primaryColor={[ 'yellow', 'navyblue']}  />
+              </div>
+              
+              
               </div>
             </p>
           </div>

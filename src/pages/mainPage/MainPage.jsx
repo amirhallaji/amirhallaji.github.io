@@ -46,9 +46,6 @@ const MainPage = () => {
         <a className="navbar-item" href="#Resume" onClick={disappearNav}>
           Resume
         </a>
-        <a className="navbar-item" href="#Contact" onClick={disappearNav}>
-          Contact
-        </a>
         <a
           className="navbar-icon"
           href="javascript:void(0)"

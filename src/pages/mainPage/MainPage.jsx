@@ -6,6 +6,7 @@ import "./MainPage.css";
 // Components
 import { Button } from "antd";
 import {CircleProgress} from 'react-gradient-progress';
+import { SocialIcon } from 'react-social-icons';
 
 const MainPage = () => {
 
@@ -146,12 +147,13 @@ const MainPage = () => {
 
           <div className="sections" id='Contact'>
             <h1 className="sections-headers" >Contact</h1>
-            <p className="sections-paragraphs" >
-              I am a B.SC student studying computer Engineering at Shahid
-              Beheshti University.I am a B.SC student studying computer
-              Engineering at Shahid Beheshti University.
-            </p>
-            <p>I love to learn and experience new things in this world.</p>
+            <div className='sections-socialmedia'>
+            <SocialIcon className='sections-socialmedia-items' url="https://twitter.com/amirhallaji_" />
+            <SocialIcon className='sections-socialmedia-items' url='https://instagram.com/amirhallaji'/>
+            <SocialIcon className='sections-socialmedia-items' url='https://github.com/amirhallaji'/>
+            <SocialIcon className='sections-socialmedia-items' url='https://linkedin.com/in/amirhallaji'/>
+            <SocialIcon className='sections-socialmedia-items' url='https://mailto:a.hallaji.b@gmail.com'/>
+            </div>
           </div>
         </div>
       </div>

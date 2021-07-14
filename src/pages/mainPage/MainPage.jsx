@@ -43,9 +43,14 @@ const MainPage = () => {
         <a className="navbar-item" href="#Skills" onClick={disappearNav}>
           Skills
         </a>
-        <a className="navbar-item" href="#Resume" onClick={disappearNav}>
-          Resume
-        </a>
+        <a><Button
+              type="primary"
+              href='https://github.com/amirhallaji/amirhallaji.github.io/tree/master/src/resume/amirhallaji.pdf'
+              shape="round"
+              className='navbar-item'
+            >
+              Download CV
+            </Button></a>
         <a
           className="navbar-icon"
           href="javascript:void(0)"
@@ -142,23 +147,6 @@ const MainPage = () => {
               </div>
             </p>
           </div>
-
-          <hr />
-
-          <div className="sections" id='Resume'>
-            <h1 className="sections-headers" >Resume</h1>
-            <p className="sections-paragraphs">
-              Press the button to Download my CV.
-            </p>
-            <a><Button
-              type="primary"
-              href='https://github.com/amirhallaji/amirhallaji.github.io/tree/master/src/resume/amirhallaji.pdf'
-              shape="round"
-            >
-              Download CV
-            </Button></a>
-          </div>
-
 
         </div>
       </div>

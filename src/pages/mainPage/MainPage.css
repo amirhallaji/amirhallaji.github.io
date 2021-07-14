@@ -8,7 +8,7 @@
 #wrapper-left {
       height: 100%;
       width: 45%;
-      background-image: url('../../images/amir2.JPG');
+      background-image: url('../../images/amir.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -43,10 +43,8 @@
       background-color: #F5B041;
       color: white !important;
       padding: 10px;
-      width: auto;
-      height: auto;
+      margin-top: -5px;
 }
-
 
 #navbar {
       position: fixed;
@@ -74,9 +72,7 @@
 
 .sections-skills {
       display: flex; 
-      /* justify-content: space-between;
-       */
-       flex-flow: row wrap;
+      flex-flow: row wrap;
 }
 
 .sections-skills-items {
@@ -96,10 +92,12 @@
       text-align: center;
 }
 
+
 @media screen and (max-width:1024px){
 
       .navbar-icon {
             display: block;  
+            margin-right: 11px;
             color:#F5B041;   
       }
 

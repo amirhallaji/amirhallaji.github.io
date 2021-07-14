@@ -75,11 +75,11 @@ const MainPage = () => {
           <div className="sections" id='Experience'>
             <h1 className="sections-headers" >Experience</h1>
             <p className="sections-paragraphs">
-              I am a B.SC student studying computer Engineering at Shahid
-              Beheshti University.I am a B.SC student studying computer
-              Engineering at Shahid Beheshti University.
+              <ul>
+                <li><strong>July 2021 - now </strong>Programmer Internship -  Mavaratech Company</li>
+                <li><strong>Aug 2019 - Sep 2019 </strong>Programmer Internship -  ToobaTech Company</li>
+              </ul>
             </p>
-            <p>I love to learn and experience new things in this world.</p>
           </div>
 
           <hr />

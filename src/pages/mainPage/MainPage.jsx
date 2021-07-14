@@ -115,7 +115,7 @@ const MainPage = () => {
               <CircleProgress percentage={90} strokeWidth={8} width={'130'} primaryColor={['brown', 'white']} />
               </div>
 
-              <div className='sections-skills-items'> Python, Pandas
+              <div className='sections-skills-items'> Python
               <CircleProgress percentage={70} strokeWidth={8} width={'130'} primaryColor={['blue', 'yellow']}  />
               </div>
 

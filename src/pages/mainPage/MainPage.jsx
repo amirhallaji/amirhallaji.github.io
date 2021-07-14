@@ -115,9 +115,8 @@ const MainPage = () => {
             </p>
             <a><Button
               type="primary"
-              href='https://https://github.com/amirhallaji/amirhallaji.github.io/tree/master/src/resume/amirhallaji.pdf'
+              href='https://github.com/amirhallaji/amirhallaji.github.io/tree/master/src/resume/amirhallaji.pdf'
               shape="round"
-              onClick={{}}
             >
               Download CV
             </Button></a>

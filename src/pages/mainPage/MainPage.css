@@ -69,8 +69,12 @@
 
 .navbar-item {
       font-family: my;
-      font-size: 20px;
+      font-size: 25px;
       color: #F5B041;
+}
+
+.navbar-item:hover {
+      color:bisque;
 }
 
 .navbar-icon {

@@ -100,6 +100,11 @@
 }
 
 
+.project-links:hover {
+      background-color:antiquewhite;
+      color:#34495E !important;
+}
+
 @media screen and (max-width:1024px){
 
       .navbar-icon {

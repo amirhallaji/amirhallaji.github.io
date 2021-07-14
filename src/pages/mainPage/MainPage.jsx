@@ -101,11 +101,11 @@ const MainPage = () => {
             <p className="sections-paragraphs" >
               <p>These are some of my projects done in Shahid Beheshti University.</p>
               <ul>
-                <li><a href='https://github.com/amirhallaji/Computational-Intelligence'>Topic News Classification</a></li>
-                <li><a href='https://github.com/amirhallaji/Artificial-Intelligence-assignments/tree/master/Project'>Language Detection</a></li>
-                <li><a href='https://github.com/amirhallaji/Classroom-Android_part'>Google Classroom</a></li>
-                <li><a href='https://github.com/amirhallaji/Computational-Intelligence'>Dogs Breed Classification</a></li>
-                <li><a href='https://github.com/amirhallaji/Beheshtray-Polling-System'>Beheshtray Polling System</a></li>
+                <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Computational-Intelligence'>Topic News Classification</a></li>
+                <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Artificial-Intelligence-assignments/tree/master/Project'>Language Detection</a></li>
+                <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Classroom-Android_part'>Google Classroom</a></li>
+                <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Computational-Intelligence'>Dogs Breed Classification</a></li>
+                <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Beheshtray-Polling-System'>Beheshtray Polling System</a></li>
 
               </ul>
             </p>

@@ -87,11 +87,15 @@ const MainPage = () => {
           <div className="sections" id='Projects'>
             <h1 className="sections-headers" >Projects</h1>
             <p className="sections-paragraphs" >
-              I am a B.SC student studying computer Engineering at Shahid
-              Beheshti University.I am a B.SC student studying computer
-              Engineering at Shahid Beheshti University.
+              <ul>
+                <li><a href='https://github.com/amirhallaji/Computational-Intelligence'>Topic News Classification</a></li>
+                <li><a href='https://github.com/amirhallaji/Artificial-Intelligence-assignments/tree/master/Project'>Language Detection</a></li>
+                <li><a href='https://github.com/amirhallaji/Classroom-Android_part'>Google Classroom</a></li>
+                <li><a href='https://github.com/amirhallaji/Computational-Intelligence'>Dogs Breed Classification</a></li>
+                <li><a href='https://github.com/amirhallaji/Beheshtray-Polling-System'>Beheshtray Polling System</a></li>
+
+              </ul>
             </p>
-            <p>I love to learn and experience new things in this world.</p>
           </div>
 
           <hr />

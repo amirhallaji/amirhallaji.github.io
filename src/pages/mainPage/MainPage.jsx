@@ -120,27 +120,27 @@ const MainPage = () => {
 
                 
               <div className='sections-skills-items'> Teaching
-              <CircleProgress percentage={80} strokeWidth={8} width={'130'} primaryColor={['white', 'black']}  />
+              <CircleProgress percentage={70} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']}  />
               </div>
 
               <div className='sections-skills-items'>React JS
-              <CircleProgress percentage={65} strokeWidth={8} width={'130'} primaryColor={['orange', 'white']} />
+              <CircleProgress percentage={65} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']}  />
               </div>
 
               <div className='sections-skills-items'> Java
-              <CircleProgress percentage={90} strokeWidth={8} width={'130'} primaryColor={['brown', 'white']} />
+              <CircleProgress percentage={84} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
               </div>
 
               <div className='sections-skills-items'> Python
-              <CircleProgress percentage={70} strokeWidth={8} width={'130'} primaryColor={['blue', 'yellow']}  />
+              <CircleProgress percentage={70} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
               </div>
 
               <div className='sections-skills-items'> C, C++
-              <CircleProgress percentage={80} strokeWidth={8} width={'130'} primaryColor={['blue', 'purple']}  />
+              <CircleProgress percentage={65} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
               </div>
 
               <div className='sections-skills-items'> Pandas
-              <CircleProgress percentage={80} strokeWidth={8} width={'130'} primaryColor={[ 'yellow', 'navyblue']}  />
+              <CircleProgress percentage={70} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
               </div>
               
               

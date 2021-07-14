@@ -130,7 +130,7 @@
             width: 100%;
             height: 50vh;
             flex-shrink: 0;
-            background-position-y: -150px;
+            background-position-y: -185px;
       }
 
       #wrapper-right {
@@ -181,3 +181,18 @@
             flex-flow: row wrap;
       }
 }
+
+
+@media screen and (max-width:900px){
+      #wrapper-left {
+            background-position-y: -100px;
+      }
+}
+
+@media screen and (max-width:500px){
+      #wrapper-left {
+            background-position-y: -50px;
+      }
+}
+
+

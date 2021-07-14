@@ -84,12 +84,6 @@
       flex-direction: column;
 }
 
-.sections-socialmedia {
-      display: flex;
-      flex-flow: row wrap;
-      padding: 20px;
-      margin: 20px;
-}
 
 .sections-socialmedia-items {
       margin: 10px;

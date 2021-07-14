@@ -162,18 +162,7 @@ const MainPage = () => {
             </Button></a>
           </div>
 
-          <hr />
 
-          <div className="sections" id='Contact'>
-            <h1 className="sections-headers" >Contact</h1>
-            <div className='sections-socialmedia'>
-            <SocialIcon className='sections-socialmedia-items' url="https://twitter.com/amirhallaji_" />
-            <SocialIcon className='sections-socialmedia-items' url='https://instagram.com/amirhallaji'/>
-            <SocialIcon className='sections-socialmedia-items' url='https://github.com/amirhallaji'/>
-            <SocialIcon className='sections-socialmedia-items' url='https://linkedin.com/in/amirhallaji'/>
-            <SocialIcon className='sections-socialmedia-items' url='https://mailto:a.hallaji.b@gmail.com'/>
-            </div>
-          </div>
         </div>
       </div>
     </div>

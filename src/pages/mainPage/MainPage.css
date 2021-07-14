@@ -22,7 +22,7 @@
 }
 
 .sections {
-      min-height: 400px;
+      min-height: 100px;
       font-size: 20px;
       color: white;
       padding: 70px;
@@ -138,6 +138,7 @@
       #wrapper-left {
             width: 100%;
             height: 50vh;
+            overflow: hidden;
             flex-shrink: 0;
             background-position-y: -185px;
       }
@@ -172,6 +173,7 @@
             flex-direction: column;
       }
 
+
 }
 
 @media screen and (max-width: 710px){
@@ -204,4 +206,14 @@
       }
 }
 
+
+@media screen and (max-width: 400px){
+      
+      .sections-skills {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+      }
+}
 

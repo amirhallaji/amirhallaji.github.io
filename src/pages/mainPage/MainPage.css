@@ -12,6 +12,7 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+      background-position-y: 0px;
 }
 
 #wrapper-right {
@@ -45,6 +46,7 @@
       width: auto;
       height: auto;
 }
+
 
 #navbar {
       position: fixed;

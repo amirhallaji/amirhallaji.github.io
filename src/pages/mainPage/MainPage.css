@@ -95,6 +95,13 @@
       margin: 10px;
 }
 
+.section-socialmedia {
+      position: fixed;
+      bottom: 0;
+      width: 45%;
+      text-align: center;
+}
+
 @media screen and (max-width:1024px){
 
       .navbar-icon {

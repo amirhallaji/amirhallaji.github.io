@@ -65,7 +65,7 @@ const MainPage = () => {
             <p className="section-paragraphs">
               I am a B.SC student studying computer Engineering at Shahid
               Beheshti University.I am a B.SC student studying computer
-              Engineering at Shahid Beheshti University.
+              Engineering at Shahid Beheshti University. 
             </p>
             <p>I love to learn and experience new things in this world.</p>
           </div>
@@ -76,8 +76,9 @@ const MainPage = () => {
             <h1 className="sections-headers" >Experience</h1>
             <p className="sections-paragraphs">
               <ul>
-                <li><strong>July 2021 - now </strong>Programmer Internship -  Mavaratech Company</li>
-                <li><strong>Aug 2019 - Sep 2019 </strong>Programmer Internship -  ToobaTech Company</li>
+                <li><strong style={{color:'orange'}}>July 2021 - Now: </strong>Programmer Internship -  Mavaratech Company</li>
+                <li><strong style={{color:'orange'}}>Jan 2020 - Now: </strong>Programmer Teacher -  Salam Tajrish High School</li>
+                <li><strong style={{color:'orange'}}>Aug 2019 - Sep 2019: </strong>Programmer Internship -  ToobaTech Company</li>
               </ul>
             </p>
           </div>
@@ -87,6 +88,7 @@ const MainPage = () => {
           <div className="sections" id='Projects'>
             <h1 className="sections-headers" >Projects</h1>
             <p className="sections-paragraphs" >
+              <p>These are some of my projects done in Shahid Beheshti University.</p>
               <ul>
                 <li><a href='https://github.com/amirhallaji/Computational-Intelligence'>Topic News Classification</a></li>
                 <li><a href='https://github.com/amirhallaji/Artificial-Intelligence-assignments/tree/master/Project'>Language Detection</a></li>

@@ -5,7 +5,7 @@ import "./MainPage.css";
 
 // Components
 import { Button } from "antd";
-
+import {CircleProgress} from 'react-gradient-progress';
 
 const MainPage = () => {
 
@@ -105,11 +105,25 @@ const MainPage = () => {
           <div className="sections" id='Skills'>
             <h1 className="sections-headers" >Skills</h1>
             <p className="sections-paragraphs">
-              I am a B.SC student studying computer Engineering at Shahid
-              Beheshti University.I am a B.SC student studying computer
-              Engineering at Shahid Beheshti University.
+              <div className='sections-skills'>
+
+              <div className='sections-skills-items'>React JS
+              <CircleProgress percentage={65} strokeWidth={8} width={'130'} primaryColor={['orange', 'white']} />
+              </div>
+
+              <div className='sections-skills-items'> Java
+              <CircleProgress percentage={90} strokeWidth={8} width={'130'} primaryColor={['brown', 'white']} />
+              </div>
+
+              <div className='sections-skills-items'> Python, Pandas
+              <CircleProgress percentage={70} strokeWidth={8} width={'130'} primaryColor={['blue', 'yellow']}  />
+              </div>
+
+              <div className='sections-skills-items'> C, C++
+              <CircleProgress percentage={80} strokeWidth={8} width={'130'} primaryColor={['blue', 'purple']}  />
+              </div>
+              </div>
             </p>
-            <p>I love to learn and experience new things in this world.</p>
           </div>
 
           <hr />

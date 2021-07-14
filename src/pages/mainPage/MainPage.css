@@ -72,6 +72,17 @@
       display: none;
 }
 
+.sections-skills {
+      display: flex; 
+      justify-content: space-between;
+}
+
+.sections-skills-items {
+      display: flex;
+      flex-direction: column;
+}
+
+
 @media screen and (max-width:1024px){
 
       .navbar-icon {

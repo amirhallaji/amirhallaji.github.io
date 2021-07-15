@@ -75,8 +75,7 @@ const MainPage = () => {
             <h1 className="sections-headers" >About</h1>
             <p className="section-paragraphs">
               I am a B.SC student studying computer Engineering at Shahid
-              Beheshti University.I am a B.SC student studying computer
-              Engineering at Shahid Beheshti University. 
+              Beheshti University.
             </p>
             <p>I love to learn and experience new things in this world.</p>
           </div>

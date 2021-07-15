@@ -63,11 +63,11 @@ const MainPage = () => {
       <div id="wrapper">
         <div id="wrapper-left" >
           <div className='section-socialmedia'>
-            <SocialIcon className='sections-socialmedia-items' url="https://twitter.com/amirhallaji_" />
-            <SocialIcon className='sections-socialmedia-items' url='https://instagram.com/amirhallaji'/>
-            <SocialIcon className='sections-socialmedia-items' url='https://github.com/amirhallaji'/>
-            <SocialIcon className='sections-socialmedia-items' url='https://linkedin.com/in/amirhallaji'/>
-            <SocialIcon className='sections-socialmedia-items' url='https://mailto:a.hallaji.b@gmail.com'/>
+            <SocialIcon className='sections-socialmedia-items' target='_blank' url="https://twitter.com/amirhallaji_" />
+            <SocialIcon className='sections-socialmedia-items' target='_blank' url='https://instagram.com/amirhallaji'/>
+            <SocialIcon className='sections-socialmedia-items' target='_blank' url='https://github.com/amirhallaji'/>
+            <SocialIcon className='sections-socialmedia-items' target='_blank' url='https://linkedin.com/in/amirhallaji'/>
+            <SocialIcon className='sections-socialmedia-items' target='_blank' url='mailto:a.hallaji.b@gmail.com'/>
           </div>
         </div>
         <div id="wrapper-right">

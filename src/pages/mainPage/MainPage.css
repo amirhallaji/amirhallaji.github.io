@@ -93,7 +93,7 @@
 
 
 .sections-socialmedia-items {
-      margin: 10px;
+      margin: 5px;
 }
 
 .section-socialmedia {
@@ -171,8 +171,12 @@
             bottom: 50vh;
             display: flex;
             flex-direction: column;
+            /* height: 50%; */
       }
 
+      .sections-socialmedia-items {
+            margin: 3px;
+      }
 
 }
 

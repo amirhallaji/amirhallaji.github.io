@@ -7,20 +7,19 @@ import "./MainPage.css";
 import { Button } from "antd";
 import {CircleProgress} from 'react-gradient-progress';
 import { SocialIcon } from 'react-social-icons';
-import { useEffect } from "react/cjs/react.production.min";
 
 
 
 const MainPage = () => {
 
-  useEffect(() => {
-    window.addEventListener("scroll", this.onScroll);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", this.onScroll);
 
-    return () => {
-      window.removeEventListener("scroll", this.onScroll);
-    }
+  //   return () => {
+  //     window.removeEventListener("scroll", this.onScroll);
+  //   }
 
-  }, []) 
+  // }, []) 
   
 
   const iconFunction = () => {

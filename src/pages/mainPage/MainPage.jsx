@@ -86,8 +86,9 @@ const MainPage = () => {
         <div id="wrapper-right">
           <div className="sections" id='About'>
             <h1 className="sections-headers" >About</h1>
+            <p style={{fontSize:'25px'}}>Welcome to my website!</p>
             <p className="section-paragraphs">
-              I am a B.SC student studying computer Engineering at Shahid
+              I am <span style={{color:'orange'}}>Amir Hallaji</span>, a B.SC student studying computer Engineering at Shahid
               Beheshti University.
             </p>
             <p>I love to learn and experience new things in this world.</p>

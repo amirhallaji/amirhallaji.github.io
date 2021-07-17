@@ -59,6 +59,7 @@ const MainPage = () => {
               type="primary"
               href='https://github.com/amirhallaji/amirhallaji.github.io/tree/master/src/resume/amirhallaji.pdf'
               shape="round"
+              target='_blank'
               className='navbar-item'
             >
               Download CV
@@ -138,8 +139,8 @@ const MainPage = () => {
               <CircleProgress percentage={65} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']}  />
               </div>
 
-              <div className='sections-skills-items'> Java
-              <CircleProgress percentage={84} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
+              <div className='sections-skills-items'> Machine Learning
+              <CircleProgress percentage={65} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
               </div>
 
               <div className='sections-skills-items'> Python
@@ -150,9 +151,11 @@ const MainPage = () => {
               <CircleProgress percentage={65} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
               </div>
 
-              <div className='sections-skills-items'> Pandas
-              <CircleProgress percentage={70} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
+
+              <div className='sections-skills-items'> Java
+              <CircleProgress percentage={84} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
               </div>
+
               
               
               </div>

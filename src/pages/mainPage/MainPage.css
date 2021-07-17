@@ -89,7 +89,14 @@
 
 .sections-skills-items {
       display: flex;
+      align-items: center;
       flex-direction: column;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color:#5D6D7E;
+      border-radius: 10px;
+      width: 200px;
+      margin: 10px;
+      padding: 5px;
 }
 
 

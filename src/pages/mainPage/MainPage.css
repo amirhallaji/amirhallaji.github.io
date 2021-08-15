@@ -27,7 +27,6 @@
 }
 
 .sections {
-      /* min-height: 200px; */
       min-height: 200px;
       font-size: 20px;
       color: white;
@@ -37,7 +36,6 @@
 .sections-headers {
       color: white;
       font-size: 40px;
-      font-family: my;
 }
 
 .sections-headers::first-letter {
@@ -74,7 +72,6 @@
 }
 
 .navbar-item {
-      font-family: my;
       font-size: 25px;
       color: #F5B041;
 }
@@ -89,14 +86,14 @@
 
 .sections-skills {
       display: flex; 
-      flex-flow: row wrap;
+      flex-wrap: wrap;
+      justify-content: center;
 }
 
 .sections-skills-items {
       display: flex;
       align-items: center;
       flex-direction: column;
-      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       background-color:#5D6D7E;
       border-radius: 10px;
       width: 200px;

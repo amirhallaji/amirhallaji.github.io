@@ -55,7 +55,7 @@ const MainPage = () => {
         <a className="navbar-item" href="#Skills" onClick={disappearNav}>
           Skills
         </a>
-        <a><Button
+        <a download><Button
               type="primary"
               href='https://github.com/amirhallaji/amirhallaji.github.io/tree/master/src/resume/amirhallaji.pdf'
               shape="round"

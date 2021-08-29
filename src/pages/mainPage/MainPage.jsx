@@ -8,7 +8,8 @@ import { Button } from "antd";
 import {CircleProgress} from 'react-gradient-progress';
 import { SocialIcon } from 'react-social-icons';
 
-
+// Assets
+import BackToTop from '../../images/backtotop.png';
 
 const MainPage = () => {
   const [isScrolling, setIsScrolling] = useState(false);

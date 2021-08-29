@@ -11,16 +11,24 @@ import { SocialIcon } from 'react-social-icons';
 
 
 const MainPage = () => {
+  const [isScrolling, setIsScrolling] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", this.onScroll);
-
+    document.querySelector("#wrapper-right").addEventListener("scroll", onScroll);
     return () => {
-      window.removeEventListener("scroll", this.onScroll);
+    document.querySelector("#wrapper-right").removeEventListener("scroll", onScroll);
     }
 
   }, []) 
-  
+
+  const onScroll = () => {
+    setIsScrolling(true);
+
+    setTimeout(() => {
+      setIsScrolling(false);
+    }, 200)
+  }
+
 
   const iconFunction = () => {
     let x = document.getElementById("navbar");
@@ -157,8 +165,6 @@ const MainPage = () => {
               <CircleProgress percentage={84} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
               </div>
 
-              
-              
               </div>
             </p>
           </div>

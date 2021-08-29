@@ -148,7 +148,7 @@
       #wrapper-left {
             width: 100%;
             height: 50vh;
-            /* overflow: hidden; */
+            overflow: hidden;
             flex-shrink: 0;
             background-position-y: -185px;
       }

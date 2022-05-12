@@ -7,32 +7,9 @@ import "./MainPage.css";
 import { Button } from "antd";
 import {CircleProgress} from 'react-gradient-progress';
 import { SocialIcon } from 'react-social-icons';
-import ScrollToTop from "react-scroll-to-top";
 
-// Assets
-import BackToTop from '../../images/backtotop.png';
 
 const MainPage = () => {
-  const [isScrolling, setIsScrolling] = useState(false);
-
-  // useEffect(() => {
-  //   document.querySelector("#wrapper-right").addEventListener("scroll", navbarScroll);
-  //   return () => {
-  //   document.querySelector("#wrapper-right").removeEventListener("scroll", navbarScroll)
-  //   }
-
-  // }, []) 
-
-  const navbarScroll = () => {
-    setIsScrolling(true);
-    let navbar = document.getElementById("navbar")
-    navbar.style.display = 'none';
-    setTimeout(() => {
-      setIsScrolling(false);
-      navbar.style.display = 'flex';
-    }, 1500)
-  }
-
 
   const iconFunction = () => {
     let x = document.getElementById("navbar");
@@ -98,12 +75,6 @@ const MainPage = () => {
                 <SocialIcon className='sections-socialmedia-items' target='_blank' url='https://github.com/amirhallaji'/>
                 <SocialIcon className='sections-socialmedia-items' target='_blank' url='https://linkedin.com/in/amirhallaji'/>
                 <SocialIcon className='sections-socialmedia-items' target='_blank' url='mailto:a.hallaji.b@gmail.com'/>
-
-                {/* <img src={BackToTop} id='backtotop' onClick={ scrollToTop }/> */}
-
-                {/* <div className={`backtotop ${isScrolling ? 'available' : 'notAvailable'}`}></div> */}
-                {/* <div className='backtotop available'></div>
-                 */}
               </div>
               
             </div>
@@ -143,8 +114,6 @@ const MainPage = () => {
                     <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Classroom-Android_part'>Google Classroom</a></li>
                     <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Computational-Intelligence'>Dogs Breed Classification</a></li>
                     <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Beheshtray-Polling-System'>Beheshtray Polling System</a></li>
-
-
                   </ul>
                 </p>
               </div>

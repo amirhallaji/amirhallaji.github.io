@@ -15,20 +15,6 @@
       background-position-y: 0px;
 }
 
-/* #wrapper-left:hover {
-      transform: scale(1.1);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-} */
-
-
-/* #backtotop {
-      position: fixed;
-      right: 30px;
-      bottom: 0;
-      height: 80px;
-      width: 80px;
-} */
-
 #wrapper-right {
       width:55%;
       overflow: auto;
@@ -203,8 +189,6 @@
       #wrapper-left {
             width: 100%;
             background-position-y: -0px;
-            /* background-position-x: 50px; */
-
       }
 }
 

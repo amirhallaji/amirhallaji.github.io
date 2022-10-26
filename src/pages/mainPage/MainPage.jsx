@@ -4,7 +4,6 @@ import {React, useState, useEffect} from "react";
 import "./MainPage.css";
 
 // Components
-import { Button } from "antd";
 import {CircleProgress} from 'react-gradient-progress';
 import { SocialIcon } from 'react-social-icons';
 
@@ -12,11 +11,18 @@ import { SocialIcon } from 'react-social-icons';
 const MainPage = () => {
 
   const iconFunction = () => {
-    let x = document.getElementById("navbar");
-    if (x.className === "") {
-      x.classList.add('responsive');
-    } else {
-      x.classList.remove('responsive');
+    let navbar = document.getElementById("navbar")
+    let navbarIcon = document.getElementsByClassName("navbar-icon")[0]
+
+    if (navbar.classList.contains("open")) {
+      navbar.style.transform = `translateX(-100%)`
+      navbarIcon.style.transform = `translateX(0)`
+      navbar.classList.remove("open")
+    }
+    else {
+      navbar.style.transform = "translateX(0)"
+      navbarIcon.style.transform = `translateX(${navbar.offsetWidth}px)`
+      navbar.classList.add("open")
     }
   };
 
@@ -26,13 +32,14 @@ const MainPage = () => {
       x.classList.remove('responsive');
   };
 
-  const scrollToTop = () => {
-    window.scrollTo(1000,1000)
-  }
-
   return (
     <div id="container">
-
+        <a
+          className="navbar-icon"
+          onClick={iconFunction}
+        >
+          <i class="fa fa-bars"></i>
+        </a>
         <div id="navbar">
           <a className="navbar-item" href="/" onClick={disappearNav}>
             Home
@@ -49,21 +56,9 @@ const MainPage = () => {
           <a className="navbar-item" href="#Skills" onClick={disappearNav}>
             Skills
           </a>
-          <a download><Button
-                type="primary"
-                href='https://github.com/amirhallaji/amirhallaji.github.io/tree/master/src/resume/amirhallaji.pdf'
-                shape="round"
-                target='_blank'
-                className='navbar-item'
-              >
-                Download Resume
-              </Button></a>
-          <a
-            className="navbar-icon"
-            href="javascript:void(0)"
-            onClick={iconFunction}
-          >
-            <i class="fa fa-bars"></i>
+          <a className="navbar-item" download
+           href="https://github.com/amirhallaji/amirhallaji.github.io/tree/master/src/resume/amirhallaji.pdf" onClick={disappearNav}>
+            Resume
           </a>
         </div>
 

@@ -56,7 +56,7 @@ const MainPage = () => {
                 target='_blank'
                 className='navbar-item'
               >
-                Download CV
+                Download Resume
               </Button></a>
           <a
             className="navbar-icon"

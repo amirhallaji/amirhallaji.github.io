@@ -8,7 +8,7 @@
 #wrapper-left {
       height: 100%;
       width: 45%;
-      background-image: url('../../images/amir.jpg');
+      background-image: url('../../images/amir2.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -18,7 +18,7 @@
 #wrapper-right {
       width:55%;
       overflow: auto;
-      background-color: #34495E;
+      background-color: #1d1f20;
 }
 
 .sections {
@@ -39,7 +39,7 @@
 
 
 .ant-btn {
-      background-color: #E74C3C ;
+      background-color: #4da776 ;
       color: white !important;
 }
 
@@ -54,25 +54,26 @@
 
 #navbar {
       position: fixed;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: #5D6D7E;
-      border-radius: 30px;
-      width: 50%;
-      padding: 20px 0;
+      top: 0px;
+      left: 0px;
+      /* transform: translateX(100%); */
+      transition: all 0.5s;
+      background-color: #4da776;
+      width: 25%;
+      padding: 20px;
       display: flex;
-      justify-content: space-around;
-      align-items: center;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
 }
 
 .navbar-item {
       font-size: 25px;
-      color: #F5B041;
+      color: white;
 }
 
 .navbar-item:hover {
-      color:bisque;
+      color:rgb(112, 74, 26);
 }
 
 .navbar-icon {

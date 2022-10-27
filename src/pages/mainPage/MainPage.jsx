@@ -86,7 +86,7 @@ const MainPage = () => {
                   is Judd Trump. I also love teaching and although I'm not a good teacher, but teaching makes me 
                   feel great.
                 </p>
-                <p>I love to learn and experience new things in this world. But this is just to extent of loving. :)) </p>
+                <p>I love to learn and experience new things in this world. But this is just to the extent of loving. :)) </p>
               </div>
 
               <hr />

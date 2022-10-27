@@ -96,7 +96,6 @@
 .sections-skills {
       display: flex; 
       flex-wrap: wrap;
-      justify-content: center;
 }
 
 .sections-skills-items {
@@ -136,44 +135,6 @@
             justify-content: center;
             align-items: center;
       }
-
-      /* .navbar-icon {
-            display: block;  
-            margin-right: 11px;
-            color:#F5B041;   
-      }
-
-      .navbar-item {
-            display: none;
-      }
-
-      #navbar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            right: 10px;
-            transform: none;
-            left: unset;
-      } */
-
-      /* #navbar.responsive {
-            width: 100%;
-            flex-direction: column;
-            border-radius: 5px;
-            height: 50%;
-            right: unset;
-            top: unset;
-      }
-
-      #navbar.responsive .navbar-item {
-            display: block;
-            width: 100%;
-            text-align: center;
-      }
-
-      #navbar.responsive .clicked {
-            display: none;
-      } */
 
       #wrapper {
             flex-direction: column;

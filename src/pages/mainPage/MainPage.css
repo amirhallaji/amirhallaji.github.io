@@ -1,4 +1,6 @@
-
+* {
+      font-family: url('../../fonts/Vazir.ttf');
+}
 #wrapper {
       display: flex;
       overflow: hidden;

@@ -76,11 +76,18 @@ const MainPage = () => {
                   
                   <hr />
                   I was born in Aran & Bidgol in Iran. I am 22 and now I'm living in Tehran. My favorite sport
-                  is Soccer and Perepolis and Barcelona are my favorite teams. I also love snooker and my favorite player
-                  is Judd Trump. I also love teaching and although I'm not a good teacher, but teaching makes me 
+                  is Soccer and Persepolis and Barcelona are my favorite teams. I also love snooker and my favorite player
+                  is Judd Trump. I also love teaching. However I'm not the best teacher, but teaching makes me 
                   feel great.
                 </p>
-                <p>I love to learn and experience new things in this world. But this is just to the extent of loving. :)) </p>
+                <p>
+                  Also:
+                </p>
+                <p style={{fontFamily:'Vazir', direction:'rtl'}}>
+                  زکات علم نشر آن است.
+                </p>
+                <p>I love to learn and experience new things in this world. But this is just to the extent of loving,
+                  not doing. :)) </p>
               </div>
 
               <hr />

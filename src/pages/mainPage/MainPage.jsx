@@ -90,6 +90,7 @@ const MainPage = () => {
                 <h1 className="sections-headers" >Experience</h1>
                 <p className="sections-paragraphs">
                   <ul>
+                    <li><strong style={{color:'orange'}}>Jan 2022 - Now: </strong>Software Engineer - Snapp Inc</li>
                     <li><strong style={{color:'orange'}}>July 2021 - August 2021: </strong>Programmer Internship -  Mavaratech Company</li>
                     <li><strong style={{color:'orange'}}>Jan 2020 - Now: </strong>Programmer Teacher -  Salam Tajrish High School</li>
                     <li><strong style={{color:'orange'}}>Aug 2019 - Sep 2019: </strong>Programmer Internship -  ToobaTech Company</li>

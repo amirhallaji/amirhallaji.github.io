@@ -144,7 +144,6 @@
       #wrapper-left {
             width: 100%;
             height: 50vh;
-            /* overflow: hidden; */
             flex-shrink: 0;
             background-position-y: -185px;
       }
@@ -156,13 +155,11 @@
 
       .section-socialmedia {
             bottom: 50vh;
-            display: flex;
-            flex-direction: column;
-            /* height: 50%; */
+            right: 0;
       }
 
       .sections-socialmedia-items {
-            margin: 3px;
+            margin: 2px;
       }
 
 }

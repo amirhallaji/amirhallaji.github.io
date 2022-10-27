@@ -23,12 +23,6 @@ const MainPage = () => {
     }
   };
 
-  const disappearNav = () => {
-    let x = document.getElementById("navbar");
-    if (x.className === 'responsive')
-      x.classList.remove('responsive');
-  };
-
   return (
     <div id="container">
         <a
@@ -38,26 +32,26 @@ const MainPage = () => {
           <i class="fa fa-bars"></i>
         </a>
         <div id="navbar">
-          <a className="navbar-item" href="/" onClick={disappearNav}>
+          <a className="navbar-item" href="/" onClick={iconFunction}>
             Home
           </a>
-          <a className="navbar-item" href="#About" onClick={disappearNav} >
+          <a className="navbar-item" href="#About" onClick={iconFunction} >
             About
           </a>
-          <a className="navbar-item" href="#Experience" onClick={disappearNav}>
+          <a className="navbar-item" href="#Experience" onClick={iconFunction}>
             Experience
           </a>
-          <a className="navbar-item" href="#Educations" onClick={disappearNav}>
+          <a className="navbar-item" href="#Educations" onClick={iconFunction}>
             Educations
           </a>
-          <a className="navbar-item" href="#Projects" onClick={disappearNav}>
+          <a className="navbar-item" href="#Projects" onClick={iconFunction}>
             Projects
           </a>
-          <a className="navbar-item" href="#Skills" onClick={disappearNav}>
+          <a className="navbar-item" href="#Skills" onClick={iconFunction}>
             Skills
           </a>
           <a className="navbar-item" download
-           href="https://github.com/amirhallaji/amirhallaji.github.io/tree/master/src/resume/amirhallaji.pdf" onClick={disappearNav}>
+           href="https://github.com/amirhallaji/amirhallaji.github.io/tree/master/src/resume/amirhallaji.pdf" onClick={iconFunction}>
             Resume
           </a>
         </div>

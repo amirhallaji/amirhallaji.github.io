@@ -80,12 +80,6 @@ const MainPage = () => {
                   is Judd Trump. I also love teaching. However I'm not the best teacher, but teaching makes me 
                   feel great.
                 </p>
-                <p>
-                  Also:
-                </p>
-                <p style={{fontFamily:'Vazir', direction:'rtl'}}>
-                  زکات علم نشر آن است.
-                </p>
                 <p>I love to learn and experience new things in this world. But this is just to the extent of loving,
                   not doing. :)) </p>
               </div>
@@ -110,14 +104,20 @@ const MainPage = () => {
                 <h1 className="sections-headers" >Educations</h1>
                 <p className="sections-paragraphs" >
                   <ul>
-                    <li style={{color:'#4da776'}}>
+                    <li>
+                      <p style={{color:'#4da776'}}>
                       MSc, Computer engineering, AI, Shahid Beheshti University
+                      </p>
                     </li>
-                    <li style={{color:'#4da776'}}>
+                    <li>
+                      <p style={{color:'#4da776'}}>
                       Bsc, Computer engineering, Shahid Beheshti University
+                      </p>
                     </li>
-                    <li style={{color:'#4da776'}}>
+                    <li>
+                      <p style={{color:'#4da776'}}>
                       Diploma, Mathematics & Physics, Salam Tajrish High school
+                      </p>
                     </li>
                   </ul>
                 </p>
@@ -150,26 +150,26 @@ const MainPage = () => {
                   <div className='sections-skills'>
                     <div>
                       <ul>
-                        <li style={{color:'#4da776'}}>
-                          Golang
+                        <li>
+                          <p style={{color:'#4da776'}}>Golang</p>
                         </li>
-                        <li style={{color:'#4da776'}}>
-                          Python
+                        <li>
+                          <p style={{color:'#4da776'}}>Python</p>
                         </li>
-                        <li style={{color:'#4da776'}}>
-                          Java
+                        <li>
+                          <p style={{color:'#4da776'}}>Java</p>
                         </li>
-                        <li style={{color:'#4da776'}}>
-                          C, C++
+                        <li>
+                          <p style={{color:'#4da776'}}>C, C++</p>
                         </li>
-                        <li style={{color:'#4da776'}}>
-                          Docker
+                        <li>
+                          <p style={{color:'#4da776'}}>Docker</p>
                         </li>
-                        <li style={{color:'#4da776'}}>
-                          Linux
+                        <li>
+                          <p style={{color:'#4da776'}}>Linux</p>
                         </li>
-                        <li style={{color:'#4da776'}}>
-                          Machine Learning
+                        <li>
+                          <p style={{color:'#4da776'}}>Machine Learning</p>
                         </li>
                       </ul>
                     </div>

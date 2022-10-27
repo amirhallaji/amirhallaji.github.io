@@ -1,10 +1,7 @@
-import {React, useState, useEffect} from "react";
-
 // Styles
 import "./MainPage.css";
 
 // Components
-import {CircleProgress} from 'react-gradient-progress';
 import { SocialIcon } from 'react-social-icons';
 
 
@@ -50,6 +47,9 @@ const MainPage = () => {
           <a className="navbar-item" href="#Experience" onClick={disappearNav}>
             Experience
           </a>
+          <a className="navbar-item" href="#Educations" onClick={disappearNav}>
+            Educations
+          </a>
           <a className="navbar-item" href="#Projects" onClick={disappearNav}>
             Projects
           </a>
@@ -75,13 +75,18 @@ const MainPage = () => {
             </div>
             <div id="wrapper-right">
               <div className="sections" id='About'>
-                <h1 className="sections-headers" >About</h1>
+                <h1 className="sections-headers" >About Me</h1>
                 <p style={{fontSize:'25px'}}>Welcome to my website!</p>
                 <p className="section-paragraphs">
-                  I am <span style={{color:'orange'}}>Amir Hallaji</span>, a B.SC student studying computer Engineering at Shahid
-                  Beheshti University.
+                  My name is <span style={{color:'orange'}}>Amir Hallaji</span>. My friends call me Hallaji more than Amir. :))
+                  
+                  <hr />
+                  I was born in Aran & Bidgol in Iran. I am 22 and now I'm living in Tehran. My favorite sport
+                  is Soccer and Perepolis and Barcelona are my favorite teams. I also love snooker and my favorite player
+                  is Judd Trump. I also love teaching and although I'm not a good teacher, but teaching makes me 
+                  feel great.
                 </p>
-                <p>I love to learn and experience new things in this world.</p>
+                <p>I love to learn and experience new things in this world. But this is just to extent of loving. :)) </p>
               </div>
 
               <hr />
@@ -90,10 +95,29 @@ const MainPage = () => {
                 <h1 className="sections-headers" >Experience</h1>
                 <p className="sections-paragraphs">
                   <ul>
-                    <li><strong style={{color:'orange'}}>Jan 2022 - Now: </strong>Software Engineer - Snapp Inc</li>
-                    <li><strong style={{color:'orange'}}>July 2021 - August 2021: </strong>Programmer Internship -  Mavaratech Company</li>
-                    <li><strong style={{color:'orange'}}>Jan 2020 - Now: </strong>Programmer Teacher -  Salam Tajrish High School</li>
-                    <li><strong style={{color:'orange'}}>Aug 2019 - Sep 2019: </strong>Programmer Internship -  ToobaTech Company</li>
+                    <li><strong style={{color:'#4da776'}}>Jan 2022 - Now: </strong>Software Engineer - Snapp Inc</li>
+                    <li><strong style={{color:'#4da776'}}>July 2021 - August 2021: </strong>Programmer Internship -  Mavaratech Company</li>
+                    <li><strong style={{color:'#4da776'}}>Jan 2020 - Now: </strong>Programmer Teacher -  Salam Tajrish High School</li>
+                    <li><strong style={{color:'#4da776'}}>Aug 2019 - Sep 2019: </strong>Programmer Internship -  ToobaTech Company</li>
+                  </ul>
+                </p>
+              </div>
+
+              <hr />
+
+              <div className="sections" id='Educations'>
+                <h1 className="sections-headers" >Educations</h1>
+                <p className="sections-paragraphs" >
+                  <ul>
+                    <li style={{color:'#4da776'}}>
+                      MSc, Computer engineering, AI, Shahid Beheshti University
+                    </li>
+                    <li style={{color:'#4da776'}}>
+                      Bsc, Computer engineering, Shahid Beheshti University
+                    </li>
+                    <li style={{color:'#4da776'}}>
+                      Diploma, Mathematics & Physics, Salam Tajrish High school
+                    </li>
                   </ul>
                 </p>
               </div>
@@ -105,11 +129,12 @@ const MainPage = () => {
                 <p className="sections-paragraphs" >
                   <p>These are some of my projects done in Shahid Beheshti University.</p>
                   <ul>
-                    <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Computational-Intelligence'>Topic News Classification</a></li>
-                    <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Artificial-Intelligence-assignments/tree/master/Project'>Language Detection</a></li>
-                    <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Classroom-Android_part'>Google Classroom</a></li>
-                    <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Computational-Intelligence'>Dogs Breed Classification</a></li>
-                    <li><a style={{color:'orange'}} className='project-links' href='https://github.com/amirhallaji/Beheshtray-Polling-System'>Beheshtray Polling System</a></li>
+                    <li><a style={{color:'#4da776'}} className='project-links' href='https://github.com/AJob-Recommender/'>Linkedin Data Analysis, Predicting jobs based on people history</a></li>
+                    <li><a style={{color:'#4da776'}} className='project-links' href='https://github.com/Idea-Thrive/'>Idea Thrive, Backend</a></li>
+                    <li><a style={{color:'#4da776'}} className='project-links' href='https://github.com/amirhallaji/Computational-Intelligence'>Topic News Classification</a></li>
+                    <li><a style={{color:'#4da776'}} className='project-links' href='https://github.com/amirhallaji/Artificial-Intelligence-assignments/tree/master/Project'>Language Detection</a></li>
+                    <li><a style={{color:'#4da776'}} className='project-links' href='https://github.com/amirhallaji/Computational-Intelligence'>Dogs Breed Classification</a></li>
+                    <li><a style={{color:'#4da776'}} className='project-links' href='https://github.com/amirhallaji/Beheshtray-Polling-System'>Beheshtray Polling System</a></li>
                   </ul>
                 </p>
               </div>
@@ -119,34 +144,34 @@ const MainPage = () => {
               <div className="sections" id='Skills'>
                 <h1 className="sections-headers" >Skills</h1>
                 <p className="sections-paragraphs">
+                  Tools and Technologies below are those which I have a little experience in working with.
+                  I'm just a novice and not advanced using these tools, but I love to use them whenever needed.
                   <div className='sections-skills'>
-
-                    
-                  <div className='sections-skills-items'> Teaching
-                  <CircleProgress percentage={70} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']}  />
-                  </div>
-
-                  <div className='sections-skills-items'>React JS
-                  <CircleProgress percentage={65} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']}  />
-                  </div>
-
-                  <div className='sections-skills-items'> Machine Learning
-                  <CircleProgress percentage={65} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
-                  </div>
-
-                  <div className='sections-skills-items'> Python
-                  <CircleProgress percentage={70} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
-                  </div>
-
-                  <div className='sections-skills-items'> C, C++
-                  <CircleProgress percentage={65} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
-                  </div>
-
-
-                  <div className='sections-skills-items'> Java
-                  <CircleProgress percentage={84} strokeWidth={8} width={'130'} primaryColor={['white', 'orange']} />
-                  </div>
-
+                    <div>
+                      <ul>
+                        <li style={{color:'#4da776'}}>
+                          Golang
+                        </li>
+                        <li style={{color:'#4da776'}}>
+                          Python
+                        </li>
+                        <li style={{color:'#4da776'}}>
+                          Java
+                        </li>
+                        <li style={{color:'#4da776'}}>
+                          C, C++
+                        </li>
+                        <li style={{color:'#4da776'}}>
+                          Docker
+                        </li>
+                        <li style={{color:'#4da776'}}>
+                          Linux
+                        </li>
+                        <li style={{color:'#4da776'}}>
+                          Machine Learning
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </p>
               </div>

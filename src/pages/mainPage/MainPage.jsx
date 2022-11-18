@@ -105,19 +105,19 @@ const MainPage = () => {
                 <p className="sections-paragraphs" >
                   <ul>
                     <li>
-                      <p style={{color:'#4da776'}}>
+                      <span style={{color:'#4da776'}}>
                       MSc, Computer engineering, AI, Shahid Beheshti University
-                      </p>
+                      </span>
                     </li>
                     <li>
-                      <p style={{color:'#4da776'}}>
+                      <span style={{color:'#4da776'}}>
                       Bsc, Computer engineering, Shahid Beheshti University
-                      </p>
+                      </span>
                     </li>
                     <li>
-                      <p style={{color:'#4da776'}}>
+                      <span style={{color:'#4da776'}}>
                       Diploma, Mathematics & Physics, Salam Tajrish High school
-                      </p>
+                      </span>
                     </li>
                   </ul>
                 </p>
@@ -151,25 +151,25 @@ const MainPage = () => {
                     <div>
                       <ul>
                         <li>
-                          <p style={{color:'#4da776'}}>Golang</p>
+                          <span style={{color:'#4da776'}}>Golang</span>
                         </li>
                         <li>
-                          <p style={{color:'#4da776'}}>Python</p>
+                          <span style={{color:'#4da776'}}>Python</span>
                         </li>
                         <li>
-                          <p style={{color:'#4da776'}}>Java</p>
+                          <span style={{color:'#4da776'}}>Java</span>
                         </li>
                         <li>
-                          <p style={{color:'#4da776'}}>C, C++</p>
+                          <span style={{color:'#4da776'}}>C, C++</span>
                         </li>
                         <li>
-                          <p style={{color:'#4da776'}}>Docker</p>
+                          <span style={{color:'#4da776'}}>Docker</span>
                         </li>
                         <li>
-                          <p style={{color:'#4da776'}}>Linux</p>
+                          <span style={{color:'#4da776'}}>Linux</span>
                         </li>
                         <li>
-                          <p style={{color:'#4da776'}}>Machine Learning</p>
+                          <span style={{color:'#4da776'}}>Machine Learning</span>
                         </li>
                       </ul>
                     </div>

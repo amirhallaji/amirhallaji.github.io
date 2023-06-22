@@ -1,0 +1,105 @@
+.card {
+  border: 1px solid var(--secondary);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 30px;
+}
+
+.card.noPadding {
+  padding: 0;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cardHeader.isBanner {
+  display: block;
+}
+
+.cardHeader img {
+  width: 14vw;
+}
+
+.cardHeader.isBanner img {
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  object-fit: cover;
+  object-position: top;
+}
+
+.cardMain {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  row-gap: 20px;
+}
+
+.cardMain.withPadding {
+  padding: 0 10px 10px;
+}
+
+.cardMainTitle {
+  font: var(--cardTitle);
+  color: var(--secondary);
+}
+
+.cardMainBody {
+  font: var(--normal);
+  color: var(--secondary);
+  text-align: justify;
+  white-space: pre-wrap;
+}
+
+ol.cardMainBody {
+  padding-inline-start: 5vw;
+}
+
+.cardMainLink {
+  font: var(--normal);
+}
+
+@media screen and (min-width: 430px) {
+  .card {
+    padding: 30px;
+  }
+
+  .cardMain.withPadding {
+    padding: 0 30px 30px;
+  }
+
+  .cardHeader {
+    gap: 20px;
+  }
+
+  .cardHeader img {
+    width: 13.5vw;
+  }
+
+  ol.cardMainBody {
+    padding-inline-start: 2.73vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    padding: 30px 45px;
+  }
+
+  .cardMain.withPadding {
+    padding: 0 45px 30px;
+  }
+
+  .cardHeader img {
+    width: 7vw;
+  }
+
+  ol.cardMainBody {
+    padding-inline-start: 1.64vw;
+  }
+}

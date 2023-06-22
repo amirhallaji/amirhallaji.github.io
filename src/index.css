@@ -1,22 +1,79 @@
-body {
+:root {
+  --primary: #ff9064;
+  --secondary:  #515a5a ;
+  --other: #ffffff;
+  --robotoCondensed: "Roboto Condensed", sans-serif;
+  --dmSans: "DM Sans", sans-serif;
+  --regular: 400;
+  --bold: 700;
+  --nav: var(--regular) 3.5vw var(--robotoCondensed);
+  --title: var(--regular) 11vw var(--robotoCondensed);
+  --subTitle: var(--regular) 8vw var(--dmSans);
+  --normal: var(--regular) 4.5vw var(--dmSans);
+  --sectionTitle: var(--regular) 14vw var(--robotoCondensed);
+  --cardTitle: var(--bold) 6.5vw var(--robotoCondensed);
+}
+
+* {
   margin: 0;
-  font-family: sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-* {
-  box-sizing: border-box;
+.section {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 20px;
+  padding: 0 20px;
 }
 
-@font-face {
-  font-family: my;
-  src: url('./fonts/BebasNeue-Regular.ttf');
+img {
+  width: 100%;
+}
+
+a {
+  word-break: break-all;
+}
+
+@media screen and (min-width: 430px) {
+  :root {
+    --title: var(--regular) 4.7vw var(--robotoCondensed);
+    --subTitle: var(--regular) 3.4vw var(--dmSans);
+    --sectionTitle: var(--regular) 6.65vw var(--robotoCondensed);
+    --cardTitle: var(--bold) 3.2vw var(--robotoCondensed);
+    --normal: var(--regular) 2.23vw var(--dmSans);
+    --nav: var(--regular) 1.75vw var(--robotoCondensed);
+  }
+
+  .section {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --nav: var(--regular) 0.9vw var(--robotoCondensed);
+    --normal: var(--regular) 1.14vw var(--dmSans);
+    --subTitle: var(--regular) 2.1vw var(--dmSans);
+    --sectionTitle: var(--regular) 3.44vw var(--robotoCondensed);
+    --cardTitle: var(--bold) 1.65vw var(--robotoCondensed);
+  }
+
+  .section {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    padding: 0 70px;
+  }
 }

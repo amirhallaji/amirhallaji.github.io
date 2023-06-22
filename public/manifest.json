@@ -1,6 +1,6 @@
 {
-  "short_name": "Amir Hallaji",
-  "name": "Amir Hallaji personal website",
+  "short_name": "Ali Ghasemi",
+  "name": "Ali Ghasemi's Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#ff9064",
   "background_color": "#ffffff"
 }

@@ -1,0 +1,51 @@
+.sideMenu {
+  padding: 50px 20px;
+  background-color: var(--primary);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  transform: translateX(100%);
+  transition: 0.25s linear;
+}
+
+.sideMenu.open {
+  transform: translateX(0);
+}
+
+.sideMenuXmark {
+  width: 10%;
+  float: right;
+}
+
+.sideMenu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font: var(--normal);
+  color: var(--other);
+}
+
+.sideMenu .button {
+  margin-top: 20px;
+  width: 100%;
+}
+
+@media screen and (min-width: 430px) {
+  .sideMenu {
+    left: 25%;
+  }
+
+  .sideMenu.open {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sideMenu {
+    display: none;
+  }
+}

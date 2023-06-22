@@ -1,0 +1,43 @@
+.subSection {
+  padding-top: 50px;
+  row-gap: 30px;
+}
+
+.sectionTitle {
+  font: var(--sectionTitle);
+  color: var(--secondary);
+  grid-column: 1 / span 3;
+  text-transform: capitalize;
+}
+
+.sectionMain {
+  grid-column: 1 / span 3;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 30px;
+}
+
+.sectionMainBody {
+  font: var(--normal);
+  color: var(--secondary);
+  text-align: justify;
+}
+
+@media screen and (min-width: 430px) {
+  .sectionTitle,
+  .sectionMain {
+    grid-column: 1 / span 6;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionTitle,
+  .sectionMain {
+    grid-column: 2 / span 10;
+  }
+
+  .sectionMain.grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 20px;
+  }
+}

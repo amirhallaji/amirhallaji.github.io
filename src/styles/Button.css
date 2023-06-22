@@ -3,13 +3,13 @@
   font: var(--normal);
   border: 1px solid var(--other);
   border-radius: 50px;
-  background-color: var(--primary);
+  background-color: #00aa55;
   color: var(--other);
   cursor: pointer;
 }
 
 .button:hover {
   background-color: var(--other);
-  color: var(--primary);
+  color: #00aa55;
   transition: 0.25s linear;
 }

@@ -19,7 +19,7 @@ export const educations = [
   {
     logos: [beheshti],
     title:
-      "2018 - 2022 BSc in Computer Engineering at Shahid Beheshti University",
+      "2018 - 2022, BSc in Computer Engineering at Shahid Beheshti University",
     body: "Gratuated as a computer engineer.\nGPA: 18.00 / 20.",
   },
 ];
@@ -32,7 +32,7 @@ export const experiences = [
   },
   {
     logos: [salam],
-    title: "2019, Now, Introduction to programming Teacher",
+    title: "2019 - Now, Introduction to programming Teacher",
     body: "Teaching introduction to programming in C/C++, Java",
   },
   {
@@ -42,7 +42,7 @@ export const experiences = [
   },
   {
     logos: [tooba],
-    title: "2019, Progrmmer Intern",
+    title: "2019, Programmer Intern",
     body: "Learned HTML, CSS",
   },
 ];

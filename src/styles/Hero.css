@@ -18,7 +18,7 @@
   height: 100%;
   object-fit: cover;
   transform: scale(2.5);
-  object-position: 1.8vw -1.5vw;
+  object-position: 3.5vw +1.5vw;
 }
 
 .heroMain {
@@ -42,6 +42,10 @@
 @media screen and (min-width: 430px) {
   .hero {
     align-items: center;
+  }
+
+  .heroImage {
+    object-position: 2.5vw +1.5vw;
   }
 
   .heroImageWrapper {
@@ -69,7 +73,7 @@
   }
 
   .heroImage {
-    object-position: 1vw -0.8vw;
+    object-position: 1.5vw +0.5vw;
   }
 
   .heroMain {

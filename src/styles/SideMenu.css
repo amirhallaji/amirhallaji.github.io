@@ -34,6 +34,10 @@
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 430px) {
   .sideMenu {
     left: 25%;

@@ -92,7 +92,11 @@ const Header = (props) => {
           </li>
         </ul>
       </nav>
-      <Button>Download CV</Button>
+      <Button>
+        <a href="https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/resume/amirhallaji.pdf" download target="blank">
+          Download Resume
+        </a>
+      </Button>    
     </header>
   );
 };

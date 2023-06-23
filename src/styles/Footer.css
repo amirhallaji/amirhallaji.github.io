@@ -60,6 +60,10 @@
   grid-column: 2 / span 2;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 430px) {
   .footerFirstSection {
     grid-column: 1 / span 6;

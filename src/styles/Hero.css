@@ -1,5 +1,5 @@
 .hero {
-  background-color: #00aa55;
+  background-color: var(--primary);
   row-gap: 30px;
   padding-top: 20px;
   padding-bottom: 20px;

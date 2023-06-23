@@ -1,6 +1,6 @@
 .sideMenu {
   padding: 50px 20px;
-  background-color: #00aa55;
+  background-color: var(--primary);
   position: fixed;
   top: 0;
   right: 0;

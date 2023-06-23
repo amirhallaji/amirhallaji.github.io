@@ -10,10 +10,8 @@ const Hero = () => {
       <main className="heroMain">
         <h1>
           My name is Amir.
-          <br />
-          Softwre Engineer
         </h1>
-        <h2>and Artificial Intelligence student</h2>
+        <h2>Softwre Engineer and Artificial Intelligence student</h2>
       </main>
     </section>
   );

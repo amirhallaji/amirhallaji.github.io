@@ -1,5 +1,6 @@
 import beheshti from "./assets/images/behehsti.png";
 import snapp from "./assets/images/snapp.jpeg";
+import aic from "./assets/images/aic.jpg"
 import salam from "./assets/images/salam.jpeg";
 import mavaratech from "./assets/images/mavaratech.png";
 import tooba from "./assets/images/tooba.jpg";
@@ -29,6 +30,11 @@ export const experiences = [
     logos: [snapp],
     title: "2022 - Now, Software Engineer at Snapp Inc",
     body: "Working as a software engineer at Snapp. It is the first and largest ride-hailing platform in the middle east. (Iranian Uber)",
+  },
+  {
+    logos: [aic],
+    title: "2022 - Now, Head Club Member",
+    body: "Teaching AI and Machine Learning, Participating in competitions, etc.",
   },
   {
     logos: [salam],

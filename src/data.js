@@ -33,12 +33,12 @@ export const experiences = [
   },
   {
     logos: [aic],
-    title: "2022 - Now, Head Club Member",
+    title: "2022 - Now, Head Club Member at AIC (Artificial Intelligence Club at Shahid Behehsti University)",
     body: "Teaching AI and Machine Learning, Participating in competitions, etc.",
   },
   {
     logos: [salam],
-    title: "2019 - Now, Introduction to programming Teacher",
+    title: "2019 - Now, Introduction to programming Teacher at Salam Tajrish High school",
     body: "Teaching introduction to programming in C/C++, Java",
   },
   {
@@ -48,7 +48,7 @@ export const experiences = [
   },
   {
     logos: [tooba],
-    title: "2019, Programmer Intern",
+    title: "2019, Programmer Intern at Toobatech",
     body: "Learned HTML, CSS",
   },
 ];

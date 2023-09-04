@@ -4,6 +4,7 @@ import aic from "./assets/images/aic.jpg"
 import salam from "./assets/images/salam.jpeg";
 import mavaratech from "./assets/images/mavaratech.png";
 import tooba from "./assets/images/tooba.jpg";
+import irancellLabs from "./assets/images/irancelllabs.jpg"
 import ili from "./assets/images/ili.jpg"
 import snackflix from "./assets/images/snackflix.png";
 import idea from "./assets/images/idea.png";
@@ -54,6 +55,17 @@ export const experiences = [
 ];
 
 export const certifications = [
+  {
+    logos: [irancellLabs],
+    linkText: "",
+    link: "",
+    title: "Irancell Labs Artificial Intelligence Hackathon",
+    type: "ol",
+    body: [
+      "Ranked first in the contest (Zeus team)",
+      "Among 700 contributers"
+    ],
+  },
   {
     logos: [ili],
     linkText: "",

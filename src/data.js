@@ -39,7 +39,7 @@ export const experiences = [
   },
   {
     logos: [salam],
-    title: "2019 - Now, Introduction to programming Teacher at Salam Tajrish High school",
+    title: "2019 - 2023, Introduction to programming Teacher at Salam Tajrish High school",
     body: "Teaching introduction to programming in C/C++, Java",
   },
   {

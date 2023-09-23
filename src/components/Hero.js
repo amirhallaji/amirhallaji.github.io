@@ -11,7 +11,7 @@ const Hero = () => {
         <h1>
           My name is Amir.
         </h1>
-        <h2>Software Engineer and Artificial Intelligence student</h2>
+        <h2>Software Engineer and Artificial Intelligence Student</h2>
       </main>
     </section>
   );

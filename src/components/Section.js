@@ -73,8 +73,8 @@ const Section = (props) => {
             <br />
             <br />
             Email:{" "}
-            <a href="mailto:a.hallaji.b@gmail.com">
-              a.hallaji.b@gmail.com
+            <a href="mailto:me@amirhallaji.com">
+              me@amirhallaji.com
             </a>
             <br />
             LinkedIn:{" "}

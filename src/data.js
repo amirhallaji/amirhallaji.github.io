@@ -15,13 +15,13 @@ export const educations = [
   {
     logos: [beheshti],
     title:
-      "2022 - 2024, MSc in Artificial Intellignece at Shahid Beheshti University",
-    body: "Most interested in Deep Learning, Machine Learning, Under the supervision of Dr.Hamed Malek",
+      "(2022 - 2024), MSc in Artificial Intellignece at Shahid Beheshti University",
+    body: "Most interested in Deep Learning, Machine Learning and NLP Under the supervision of Dr.Hamed Malek",
   },
   {
     logos: [beheshti],
     title:
-      "2018 - 2022, BSc in Computer Engineering at Shahid Beheshti University",
+      "(2018 - 2022), BSc in Computer Engineering at Shahid Beheshti University",
     body: "Gratuated as a computer engineer.\nGPA: 18.00 / 20.",
   },
 ];
@@ -29,17 +29,31 @@ export const educations = [
 export const experiences = [
   {
     logos: [snapp],
-    title: "2022 - Now, Software Engineer at Snapp Inc",
-    body: "Working as a software engineer at Snapp. It is the first and largest ride-hailing platform in the middle east. (Iranian Uber)",
+    title: "(2022 - Now), Software Engineer at Snapp Inc",
+    body: `- Designing and implementation of microservices for Pricing team which includes:
+    -> Adding features
+    -> Fixing Bugs
+    -> Enhancing performance
+    - Deploying management with K8s
+    - Implementing CI/CD in the GitLab pipeline for services
+    - Monitoring services using Grafana Dashboards
+    - Holding Knowledge Sharing sessions
+    - etc`,
   },
   {
     logos: [aic],
-    title: "2022 - Now, Head Club Member at AIC (Artificial Intelligence Club at Shahid Behehsti University)",
-    body: "Teaching AI and Machine Learning, Participating in competitions, etc.",
+    title: "(2022 - Now), Head Club Member at AIC (Artificial Intelligence Club at Shahid Behehsti University)",
+    body: `Leading Shahid Beheshti AI Club
+    - Attending Competitions
+    - Holding sessions for article presentation
+    - Writing posts about ML, AI articles, and technologies in a blog
+    - Teaching AI, ML to students
+    - Mentoring new members
+    - etc`,
   },
   {
     logos: [salam],
-    title: "2019 - 2023, Introduction to programming Teacher at Salam Tajrish High school",
+    title: "(2019 - 2023), Introduction to programming Teacher at Salam Tajrish High school",
     body: "Teaching introduction to programming in C/C++, Java",
   },
   {
@@ -76,7 +90,6 @@ export const certifications = [
       "Studied English from the begining to Advanced Levels",
     ],
   },
-  
 ];
 
 export const projects = [

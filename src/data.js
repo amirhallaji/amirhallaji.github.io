@@ -5,6 +5,9 @@ import salam from "./assets/images/salam.jpeg";
 import mavaratech from "./assets/images/mavaratech.png";
 import tooba from "./assets/images/tooba.jpg";
 import irancellLabs from "./assets/images/irancelllabs.jpg"
+import irancelhackathon from "./assets/images/irancel-hackathon.jpg"
+import olympics2024 from "./assets/images/nlp-olympics-2024.jpg";
+import olympicsRanking from "./assets/images/olympics-ranking.png"
 import ili from "./assets/images/ili.jpg"
 import snackflix from "./assets/images/snackflix.png";
 import idea from "./assets/images/idea.png";
@@ -70,14 +73,25 @@ export const experiences = [
 
 export const certifications = [
   {
-    logos: [irancellLabs],
+    logos: [irancellLabs, irancelhackathon],
     linkText: "",
     link: "",
-    title: "Irancell Labs Artificial Intelligence Hackathon",
+    title: "Irancell Labs Artificial Intelligence Hackathon (2023)",
     type: "ol",
     body: [
-      "Ranked first in the contest (Zeus team)",
+      "Ranked \"1st\" in the contest (\"Zeus\" Team)",
       "Among 700 contributers"
+    ],
+  },
+  {
+    logos: [olympics2024, olympicsRanking],
+    linkText: "",
+    link: "",
+    title: "Tech AI Olympics in NLP (2024)",
+    type: "ol",
+    body: [
+      "Ranked \"4th\" in the contest (\"Zeus\" Team)",
+      "Among 1500 contributers"
     ],
   },
   {

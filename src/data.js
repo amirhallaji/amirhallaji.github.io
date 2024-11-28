@@ -8,6 +8,8 @@ import irancellLabs from "./assets/images/irancelllabs.jpg"
 import irancelhackathon from "./assets/images/irancel-hackathon.jpg"
 import olympics2024 from "./assets/images/nlp-olympics-2024.jpg";
 import olympicsRanking from "./assets/images/olympics-ranking.png"
+import aaicCertificate from "./assets/images/aaic_chatbot.jpg";
+import aaicRankings from "./assets/images/aaic_ranking.jpg";
 import ili from "./assets/images/ili.jpg"
 import snackflix from "./assets/images/snackflix.png";
 import idea from "./assets/images/idea.png";
@@ -94,6 +96,17 @@ export const certifications = [
       "Among 1500 contributers"
     ],
   },
+  {
+    logos: [aaicCertificate, aaicRankings],
+    linkText: "",
+    link: "",
+    title: "Financial Chatbot (2024)",
+    type: "ol",
+    body: [
+      "Ranked \"4th\" in the contest (\"Zeus\" Team)",
+      "Held By AmirKabir University of Technology",
+    ],
+  },  
   {
     logos: [ili],
     linkText: "",

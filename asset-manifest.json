@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d8a4ad43.css",
-    "main.js": "/static/js/main.96791713.js",
+    "main.js": "/static/js/main.d6706d24.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/irancel-hackathon.jpg": "/static/media/irancel-hackathon.711b7d993ccbc1b21e9a.jpg",
+    "static/media/aaic_chatbot.jpg": "/static/media/aaic_chatbot.6e8c68d8a3dc50e36be7.jpg",
     "static/media/snackflix.png": "/static/media/snackflix.68a682816b902c8087e0.png",
     "static/media/rankings.png": "/static/media/rankings.877d9767b18d4b180ecf.png",
     "static/media/olympics-ranking.png": "/static/media/olympics-ranking.db7dc4e74e641f2c1761.png",
     "static/media/nlp-olympics-2024.jpg": "/static/media/nlp-olympics-2024.b8278948299e018195dc.jpg",
     "static/media/irancelllabs.jpg": "/static/media/irancelllabs.55a21f1ff4be77d65c83.jpg",
     "static/media/amir-hallaji.jpg": "/static/media/amir-hallaji.263edde36fd4ced2a2fd.jpg",
+    "static/media/aaic_ranking.jpg": "/static/media/aaic_ranking.87883b2b3731cc5881ad.jpg",
     "static/media/ili.jpg": "/static/media/ili.b91331398e4f969e106b.jpg",
     "static/media/tooba.jpg": "/static/media/tooba.1f7d055aecc603725e8d.jpg",
     "static/media/logo-orange-black.svg": "/static/media/logo-orange-black.e94c0b9456ebae35d2274a4d098b5dcf.svg",
@@ -18,11 +20,11 @@
     "static/media/bars-solid.svg": "/static/media/bars-solid.fc74b78729108dc5fc20c461ca365033.svg",
     "static/media/xmark-solid.svg": "/static/media/xmark-solid.c4eddf825a20ed794492ff631e7e2fef.svg",
     "main.d8a4ad43.css.map": "/static/css/main.d8a4ad43.css.map",
-    "main.96791713.js.map": "/static/js/main.96791713.js.map",
+    "main.d6706d24.js.map": "/static/js/main.d6706d24.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8a4ad43.css",
-    "static/js/main.96791713.js"
+    "static/js/main.d6706d24.js"
   ]
 }

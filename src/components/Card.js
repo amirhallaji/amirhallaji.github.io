@@ -1,3 +1,4 @@
+import { isElementType } from "@testing-library/user-event/dist/utils";
 import "../styles/Card.css";
 
 const Card = (props) => {
@@ -19,11 +20,19 @@ const Card = (props) => {
         ) : (
           <p className="cardMainBody">{props.body}</p>
         )}
-        {props.link ? (
+        {props.link ? typeof props.link == "string" ? (
           <a href={props.link} target="_blank" className="cardMainLink">
             {props.linkText}
           </a>
-        ) : null}
+        ) :
+          props.link.map((item, index) => (
+            <li key={index}>
+              <a href={item} target="_blank" className="cardMainLink">
+                {props.linkText[index]}
+              </a>
+            </li>
+          ))
+          : null}
       </main>
     </article>
   );

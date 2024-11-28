@@ -76,8 +76,8 @@ export const experiences = [
 export const certifications = [
   {
     logos: [irancellLabs, irancelhackathon],
-    linkText: "",
-    link: "",
+    linkText: ["See Certificate", "See Ranking"],
+    link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/irancelllabs.jpg", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/irancel-hackathon.jpg"],
     title: "Irancell Labs Artificial Intelligence Hackathon (2023)",
     type: "ol",
     body: [
@@ -87,8 +87,8 @@ export const certifications = [
   },
   {
     logos: [olympics2024, olympicsRanking],
-    linkText: "",
-    link: "",
+    linkText: ["See Certificate", "See Ranking"],
+    link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/nlp-olympics-2024.jpg", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/olympics-ranking.png"],
     title: "Tech AI Olympics in NLP (2024)",
     type: "ol",
     body: [
@@ -98,15 +98,15 @@ export const certifications = [
   },
   {
     logos: [aaicCertificate, aaicRankings],
-    linkText: "",
-    link: "",
+    linkText: ["See Certificate", "See Ranking"],
+    link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/aaic_chatbot.jpg", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/aaic_ranking.jpg"],
     title: "Financial Chatbot (2024)",
     type: "ol",
     body: [
       "Ranked \"4th\" in the contest (\"Zeus\" Team)",
       "Held By AmirKabir University of Technology",
     ],
-  },  
+  },
   {
     logos: [ili],
     linkText: "",

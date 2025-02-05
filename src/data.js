@@ -20,7 +20,7 @@ export const educations = [
   {
     logos: [beheshti],
     title:
-      "(2022 - 2024), MSc in Artificial Intellignece at Shahid Beheshti University",
+      "(2022 - Now), MSc in Artificial Intellignece at Shahid Beheshti University",
     body: "Most interested in Deep Learning, Machine Learning and NLP Under the supervision of Dr.Hamed Malek",
   },
   {

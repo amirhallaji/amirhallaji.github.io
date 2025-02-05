@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d8a4ad43.css",
-    "main.js": "/static/js/main.63e570a1.js",
+    "main.js": "/static/js/main.c5e97e09.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/irancel-hackathon.jpg": "/static/media/irancel-hackathon.711b7d993ccbc1b21e9a.jpg",
     "static/media/aaic_chatbot.jpg": "/static/media/aaic_chatbot.6e8c68d8a3dc50e36be7.jpg",
@@ -20,11 +20,11 @@
     "static/media/bars-solid.svg": "/static/media/bars-solid.fc74b78729108dc5fc20c461ca365033.svg",
     "static/media/xmark-solid.svg": "/static/media/xmark-solid.c4eddf825a20ed794492ff631e7e2fef.svg",
     "main.d8a4ad43.css.map": "/static/css/main.d8a4ad43.css.map",
-    "main.63e570a1.js.map": "/static/js/main.63e570a1.js.map",
+    "main.c5e97e09.js.map": "/static/js/main.c5e97e09.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8a4ad43.css",
-    "static/js/main.63e570a1.js"
+    "static/js/main.c5e97e09.js"
   ]
 }

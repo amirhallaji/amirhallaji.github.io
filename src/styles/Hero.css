@@ -16,9 +16,11 @@
 
 .heroImage {
   height: 100%;
+  width: 100%;
   object-fit: cover;
+  object-position: center;
   transform: scale(2.5);
-  object-position: 3.5vw +1.5vw;
+  object-position: -0.50vw -0.75vw;
 }
 
 .heroMain {
@@ -44,9 +46,7 @@
     align-items: center;
   }
 
-  .heroImage {
-    object-position: 2.5vw +1.5vw;
-  }
+
 
   .heroImageWrapper {
     width: 88%;
@@ -70,10 +70,6 @@
   .heroImageWrapper {
     grid-column: 2 / span 4;
     width: 76.8%;
-  }
-
-  .heroImage {
-    object-position: 1.5vw +0.5vw;
   }
 
   .heroMain {

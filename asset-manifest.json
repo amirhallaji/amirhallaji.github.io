@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.8bd018b9.css",
-    "main.js": "/static/js/main.9d000ef2.js",
+    "main.css": "/static/css/main.5f8902ef.css",
+    "main.js": "/static/js/main.6d3772c7.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
-    "static/media/irancel-hackathon.jpg": "/static/media/irancel-hackathon.711b7d993ccbc1b21e9a.jpg",
-    "static/media/aaic_chatbot.jpg": "/static/media/aaic_chatbot.6e8c68d8a3dc50e36be7.jpg",
-    "static/media/snackflix.png": "/static/media/snackflix.68a682816b902c8087e0.png",
-    "static/media/rankings.png": "/static/media/rankings.877d9767b18d4b180ecf.png",
-    "static/media/olympics-ranking.png": "/static/media/olympics-ranking.db7dc4e74e641f2c1761.png",
-    "static/media/ili.png": "/static/media/ili.c12fc56708e78ad8aae7.png",
-    "static/media/nlp-olympics-2024.jpg": "/static/media/nlp-olympics-2024.b8278948299e018195dc.jpg",
-    "static/media/irancelllabs.jpg": "/static/media/irancelllabs.55a21f1ff4be77d65c83.jpg",
-    "static/media/amirhallaji.jpg": "/static/media/amirhallaji.8deca0589813bb959899.jpg",
-    "static/media/aaic_ranking.jpg": "/static/media/aaic_ranking.87883b2b3731cc5881ad.jpg",
+    "static/media/irancel-hackathon.webp": "/static/media/irancel-hackathon.7344df69f860f4a2d4f7.webp",
+    "static/media/aaic_chatbot.webp": "/static/media/aaic_chatbot.05da2d127fecaf3f8da6.webp",
+    "static/media/amirhallaji.webp": "/static/media/amirhallaji.89a225cef932e3bd516f.webp",
+    "static/media/irancelllabs.webp": "/static/media/irancelllabs.e5e2703acba515f1165f.webp",
+    "static/media/ili.webp": "/static/media/ili.ac9833fa16c55db1ff98.webp",
+    "static/media/nlp-olympics-2024.webp": "/static/media/nlp-olympics-2024.64feec47d6efeef09074.webp",
+    "static/media/aaic_ranking.webp": "/static/media/aaic_ranking.64afc579c2a0088fd5a5.webp",
+    "static/media/olympics-ranking.webp": "/static/media/olympics-ranking.cd6d97805d68e1121138.webp",
+    "static/media/snackflix.webp": "/static/media/snackflix.f07a9ffb3387a9394db9.webp",
+    "static/media/rankings.webp": "/static/media/rankings.1d5c215f5b5aed8a2212.webp",
     "index.html": "/index.html",
     "static/media/journal.svg": "/static/media/journal.910ccc76390154ddd9db594aea9c2bc0.svg",
     "static/media/bars-solid.svg": "/static/media/bars-solid.2909fcb3d1813ce4a2f16635defa9fdc.svg",
     "static/media/xmark-solid.svg": "/static/media/xmark-solid.c4eddf825a20ed794492ff631e7e2fef.svg",
-    "main.8bd018b9.css.map": "/static/css/main.8bd018b9.css.map",
-    "main.9d000ef2.js.map": "/static/js/main.9d000ef2.js.map",
+    "main.5f8902ef.css.map": "/static/css/main.5f8902ef.css.map",
+    "main.6d3772c7.js.map": "/static/js/main.6d3772c7.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8bd018b9.css",
-    "static/js/main.9d000ef2.js"
+    "static/css/main.5f8902ef.css",
+    "static/js/main.6d3772c7.js"
   ]
 }

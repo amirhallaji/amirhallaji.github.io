@@ -1,0 +1,37 @@
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(42, 36, 28, 0.82);
+  cursor: zoom-out;
+}
+
+.lightboxImage {
+  max-width: min(1100px, 92vw);
+  max-height: 88vh;
+  object-fit: contain;
+  border-radius: 12px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  cursor: default;
+  background: var(--surface);
+}
+
+.lightboxClose {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  border: 0;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--secondary);
+  font: 600 0.85rem / 1 var(--dmSans);
+  cursor: pointer;
+}
+
+.lightboxClose:hover {
+  color: var(--primary);
+}

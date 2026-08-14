@@ -1,0 +1,53 @@
+.logoA {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  line-height: 1;
+}
+
+.logoAWord {
+  display: flex;
+  align-items: flex-end;
+  font: 700 clamp(1.45rem, 2.2vw, 1.85rem) / 0.82 var(--robotoCondensed);
+  letter-spacing: 0.02em;
+  color: var(--secondary);
+}
+
+.logoAM {
+  width: 0.92em;
+  height: 0.92em;
+  margin: 0 0.02em 0.02em;
+  display: block;
+}
+
+.logoALast {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  font: 600 0.52rem / 1 var(--robotoCondensed);
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+
+.logoALast::before,
+.logoALast::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.45;
+}
+
+.logoA--light .logoAWord,
+.logoA--light .logoALast {
+  color: var(--other);
+}
+
+@media screen and (min-width: 1024px) {
+  .logoALast {
+    font-size: 0.58rem;
+  }
+}

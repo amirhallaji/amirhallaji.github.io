@@ -1,6 +1,6 @@
 import "../styles/Footer.css";
-import logo from "../assets/images/logo-orange-black.svg";
 import Button from "./Button";
+import Logo from "./Logo";
 
 const scrollToSection = (className) => {
   document
@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <footer className="footer section">
       <section className="footerFirstSection">
-        <img src={logo} alt="Amir Hallaji" />
+        <Logo variant="light" />
         <p>Dreams come true ...</p>
       </section>
       <section className="footerSecondSection">

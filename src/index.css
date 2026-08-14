@@ -1,14 +1,14 @@
 :root {
-  --primary: #658161;
-  --primary-dark: #4e684c;
-  --primary-soft: #e7eee6;
-  --secondary: #2c3532;
-  --muted: #4a5754;
+  --primary: #e07a12;
+  --primary-dark: #b85f0a;
+  --primary-soft: #f8e6cf;
+  --secondary: #2a241c;
+  --muted: #6b5e50;
   --other: #ffffff;
-  --bg: #f4f1ea;
-  --surface: #ffffff;
-  --border: rgba(101, 129, 97, 0.2);
-  --shadow: 0 12px 32px rgba(44, 53, 50, 0.08);
+  --bg: #f6f1e8;
+  --surface: #fffdf8;
+  --border: rgba(224, 122, 18, 0.22);
+  --shadow: 0 12px 32px rgba(42, 36, 28, 0.08);
   --radius: 16px;
   --robotoCondensed: "Roboto Condensed", sans-serif;
   --dmSans: "DM Sans", sans-serif;
@@ -20,6 +20,56 @@
   --normal: 400 1.05rem / 1.65 var(--dmSans);
   --sectionTitle: 700 clamp(2rem, 4.2vw, 3.1rem) / 1.1 var(--robotoCondensed);
   --cardTitle: 700 clamp(1.05rem, 1.5vw, 1.3rem) / 1.35 var(--robotoCondensed);
+}
+
+/* Palettes: amber (active), sage, ink, clay.
+   Switch by changing data-theme on <html> in public/index.html. */
+html[data-theme="amber"] {
+  --primary: #e07a12;
+  --primary-dark: #b85f0a;
+  --primary-soft: #f8e6cf;
+  --secondary: #2a241c;
+  --muted: #6b5e50;
+  --bg: #f6f1e8;
+  --surface: #fffdf8;
+  --border: rgba(224, 122, 18, 0.22);
+  --shadow: 0 12px 32px rgba(42, 36, 28, 0.08);
+}
+
+html[data-theme="ink"] {
+  --primary: #2f4a62;
+  --primary-dark: #1e3346;
+  --primary-soft: #e6eef4;
+  --secondary: #1c2430;
+  --muted: #5a6570;
+  --bg: #f3f1ec;
+  --surface: #ffffff;
+  --border: rgba(47, 74, 98, 0.18);
+  --shadow: 0 12px 32px rgba(28, 36, 48, 0.08);
+}
+
+html[data-theme="clay"] {
+  --primary: #b85c38;
+  --primary-dark: #8e4228;
+  --primary-soft: #f6e6dc;
+  --secondary: #2c2420;
+  --muted: #6a5b52;
+  --bg: #f7f0e8;
+  --surface: #fffaf6;
+  --border: rgba(184, 92, 56, 0.2);
+  --shadow: 0 12px 32px rgba(44, 36, 32, 0.08);
+}
+
+html[data-theme="sage"] {
+  --primary: #658161;
+  --primary-dark: #4e684c;
+  --primary-soft: #e7eee6;
+  --secondary: #2c3532;
+  --muted: #4a5754;
+  --bg: #f4f1ea;
+  --surface: #ffffff;
+  --border: rgba(101, 129, 97, 0.2);
+  --shadow: 0 12px 32px rgba(44, 53, 50, 0.08);
 }
 
 * {

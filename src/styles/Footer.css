@@ -14,10 +14,9 @@
   align-items: center;
 }
 
-.footerFirstSection img {
-  width: 180px;
-  max-width: 71.5%;
-  filter: brightness(0) invert(1);
+.footerFirstSection .logoA {
+  transform: scale(1.15);
+  transform-origin: center top;
 }
 
 .footerFirstSection p {
@@ -89,6 +88,10 @@
   .footerFirstSection {
     grid-column: 2 / span 5;
     align-items: start;
+  }
+
+  .footerFirstSection .logoA {
+    transform-origin: left top;
   }
 
   .footerFirstSection p {

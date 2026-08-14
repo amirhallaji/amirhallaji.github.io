@@ -42,6 +42,12 @@
   margin-top: 1rem;
 }
 
+.sectionSubtitle {
+  font: var(--cardTitle);
+  color: var(--secondary);
+  padding-top: 12px;
+}
+
 .contactList {
   list-style: none;
   display: grid;

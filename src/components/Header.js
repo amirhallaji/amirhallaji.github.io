@@ -1,7 +1,7 @@
-import logo from "../assets/images/logo-white-orange.svg";
 import hamburgerMenu from "../assets/images/bars-solid.svg";
 import "../styles/Header.css";
 import Button from "./Button";
+import Logo from "./Logo";
 import { useEffect, useRef } from "react";
 
 const Header = (props) => {
@@ -27,7 +27,9 @@ const Header = (props) => {
 
   return (
     <header className="section header" ref={headerRef}>
-      <img src={logo} alt="logo" className="headerLogo" />
+      <div className="headerLogo">
+        <Logo />
+      </div>
       <img
         src={hamburgerMenu}
         alt="hamburger menu"

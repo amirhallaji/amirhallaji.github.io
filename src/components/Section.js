@@ -36,15 +36,27 @@ const Section = (props) => {
             />
           ))
         ) : props.title === "experiences" ? (
-          data.experiences.map((experience) => (
-            <Card
-              key={experience.title}
-              logos={experience.logos}
-              title={experience.title}
-              body={experience.body}
-              isList={experience.type === "ol"}
-            />
-          ))
+          <>
+            {data.experiences.map((experience) => (
+              <Card
+                key={experience.title}
+                logos={experience.logos}
+                title={experience.title}
+                body={experience.body}
+                isList={experience.type === "ol"}
+              />
+            ))}
+            <h4 className="sectionSubtitle">Volunteer work</h4>
+            {data.volunteerWorks.map((work) => (
+              <Card
+                key={work.title}
+                logos={work.logos}
+                title={work.title}
+                body={work.body}
+                isList={work.type === "ol"}
+              />
+            ))}
+          </>
         ) : props.title === "certifications" ? (
           data.certifications.map((certification) => (
             <Card
@@ -53,6 +65,8 @@ const Section = (props) => {
               title={certification.title}
               body={certification.body}
               isList={certification.type === "ol"}
+              hasGallery={certification.hasGallery}
+              hasEmblem={certification.hasEmblem}
               link={certification.link}
               linkText={certification.linkText}
             />
@@ -78,8 +92,15 @@ const Section = (props) => {
             </p>
             <p>
               I work on production machine learning systems in high-traffic
-              environments, and my research focuses on bioinformatics and
-              drug–target interaction prediction.
+              environments, and I care about building software that scales —
+              reliable services, clean architecture, and systems that hold up
+              under load.
+            </p>
+            <p>
+              I'm especially interested in large language models and deep
+              learning: applying them in production, and researching
+              bioinformatics and drug–target interaction prediction with protein
+              and molecule language models.
             </p>
           </div>
         ) : (

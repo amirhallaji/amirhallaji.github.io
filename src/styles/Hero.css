@@ -20,9 +20,7 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: 20% 15%;
-  transform: scale(1.4);
-  transform-origin: 20% 20%;
+  object-position: center top;
 }
 
 .heroMain {

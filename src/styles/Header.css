@@ -14,10 +14,8 @@
 
 .headerLogo {
   grid-column: 1 / span 2;
-  width: 78%;
-  max-height: 42px;
-  object-fit: contain;
-  object-position: left center;
+  justify-self: start;
+  align-self: center;
 }
 
 .headerMenu {
@@ -49,8 +47,6 @@
 
   .headerLogo {
     grid-column: 1 / span 2;
-    width: 100%;
-    max-height: 48px;
   }
 
   .headerMenu {

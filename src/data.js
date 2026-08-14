@@ -3,14 +3,13 @@ import snapp from "./assets/images/snapp.jpeg";
 import aic from "./assets/images/aic.jpg"
 import salam from "./assets/images/salam.jpeg";
 import mavaratech from "./assets/images/mavaratech.png";
-import tooba from "./assets/images/tooba.jpg";
 import irancellLabs from "./assets/images/irancelllabs.jpg"
 import irancelhackathon from "./assets/images/irancel-hackathon.jpg"
 import olympics2024 from "./assets/images/nlp-olympics-2024.jpg";
 import olympicsRanking from "./assets/images/olympics-ranking.png"
 import aaicCertificate from "./assets/images/aaic_chatbot.jpg";
 import aaicRankings from "./assets/images/aaic_ranking.jpg";
-import ili from "./assets/images/ili.jpg"
+import ili from "./assets/images/ili.png"
 import snackflix from "./assets/images/snackflix.png";
 import idea from "./assets/images/idea.png";
 import rankings from "./assets/images/rankings.png";
@@ -22,13 +21,31 @@ export const educations = [
     logos: [beheshti],
     title:
       "(2022 - 2025), MSc in Artificial Intelligence at Shahid Beheshti University",
-    body: "Thesis: Enhancing Molecular and Protein Language Models for Drug-Target Interaction Analysis\nUnder the supervision of Dr.Hamed Malek",
+    type: "ol",
+    body: [
+      "Thesis: Enhancing Molecular and Protein Language Models for Drug-Target Interaction Analysis",
+      <>
+        Under the supervision of{" "}
+        <a
+          href="https://scholar.google.com/citations?user=_IIio8oAAAAJ&hl=en"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Dr. Hamed Malek
+        </a>
+      </>,
+    ],
   },
   {
     logos: [beheshti],
     title:
       "(2018 - 2022), BSc in Computer Engineering at Shahid Beheshti University",
-    body: "Gratuated as a computer engineer.\nGPA: 18.00 / 20.\nThesis: Linkedin Data Analysis",
+    type: "ol",
+    body: [
+      "Graduated as a computer engineer",
+      "GPA: 18.00 / 20",
+      "Thesis: Linkedin Data Analysis",
+    ],
   },
 ];
 
@@ -40,7 +57,24 @@ export const publications = [
     type: "ol",
     body: [
       "Journal of Cheminformatics, Volume 18, Article 21 (Open Access)",
-      "Authors: Amir Hallaji Bidgoli, Morteza Mahdavi & Hamed Malek",
+      <>
+        Authors: Amir Hallaji Bidgoli,{" "}
+        <a
+          href="https://scholar.google.com/citations?user=xrTDvV4AAAAJ&hl=en"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Morteza Mahdavi
+        </a>
+        {" "}&{" "}
+        <a
+          href="https://scholar.google.com/citations?user=_IIio8oAAAAJ&hl=en"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Hamed Malek
+        </a>
+      </>,
       "Proposed and implemented a novel deep learning approach using pretrained language models (ChemBERTa and ESM2) to predict drug-target affinity without relying on 3D structural data",
       "Introduced a customized Residual Inception neural network architecture to integrate protein and molecule sequence embeddings, achieving multi-scale feature extraction",
       "Achieved state-of-the-art performance on benchmark datasets (Davis, KIBA, BindingDB)",
@@ -54,47 +88,54 @@ export const experiences = [
   {
     logos: [snapp],
     title: "(2022 - Now), Software Engineer at Snapp Inc",
-    body: `- Designing and implementation of microservices for Pricing team which includes:
-    -> Adding features
-    -> Fixing Bugs
-    -> Enhancing performance
-    - Deploying management with K8s
-    - Implementing CI/CD in the GitLab pipeline for services
-    - Monitoring services using Grafana Dashboards
-    - Holding Knowledge Sharing sessions
-    - etc`,
-  },
-  {
-    logos: [aic],
-    title: "(2022 - Now), Head Club Member at AIC (Artificial Intelligence Club at Shahid Behehsti University)",
-    body: `Leading Shahid Beheshti AI Club
-    - Attending Competitions
-    - Holding sessions for article presentation
-    - Writing posts about ML, AI articles, and technologies in a blog
-    - Teaching AI, ML to students
-    - Mentoring new members
-    - etc`,
-  },
-  {
-    logos: [salam],
-    title: "(2019 - 2023), Introduction to programming Teacher at Salam Tajrish High school",
-    body: "Teaching introduction to programming in C/C++, Java",
+    type: "ol",
+    body: [
+      "Designed and implemented microservices for the Pricing team, including new features, bug fixes, and performance work",
+      "Managed Kubernetes deployments",
+      "Implemented CI/CD in the GitLab pipeline",
+      "Monitored services with Grafana dashboards",
+      "Held knowledge sharing sessions",
+    ],
   },
   {
     logos: [mavaratech],
     title: "2020, Backend Developer Intern at Mavaratech",
-    body: "Learned Backend Programming in Java.",
+    type: "ol",
+    body: [
+      "Backend programming in Java with PostgreSQL",
+      "Designed Beheshtray, a voting system for teachers and professors at the university",
+    ],
+  },
+];
+
+export const volunteerWorks = [
+  {
+    logos: [aic],
+    title: "(2022 - Now), Head Club Member at AIC (Artificial Intelligence Club at Shahid Beheshti University)",
+    type: "ol",
+    body: [
+      "Leading Shahid Beheshti AI Club",
+      "Attending competitions",
+      "Holding sessions for article presentation",
+      "Writing posts about ML, AI articles, and technologies",
+      "Teaching AI and ML to students",
+      "Mentoring new members",
+    ],
   },
   {
-    logos: [tooba],
-    title: "2019, Programmer Intern at Toobatech",
-    body: "Learned HTML, CSS",
+    logos: [salam],
+    title: "(2019 - 2023), Introduction to programming Teacher at Salam Tajrish High school",
+    type: "ol",
+    body: [
+      "Teaching introduction to programming in C/C++ and Java",
+    ],
   },
 ];
 
 export const certifications = [
   {
     logos: [irancellLabs, irancelhackathon],
+    hasGallery: true,
     linkText: ["See Certificate", "See Ranking"],
     link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/irancelllabs.jpg", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/irancel-hackathon.jpg"],
     title: "Irancell Labs Artificial Intelligence Hackathon (2023)",
@@ -106,6 +147,7 @@ export const certifications = [
   },
   {
     logos: [olympics2024, olympicsRanking],
+    hasGallery: true,
     linkText: ["See Certificate", "See Ranking"],
     link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/nlp-olympics-2024.jpg", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/olympics-ranking.png"],
     title: "Tech AI Olympics in NLP (2024)",
@@ -117,6 +159,7 @@ export const certifications = [
   },
   {
     logos: [aaicCertificate, aaicRankings],
+    hasGallery: true,
     linkText: ["See Certificate", "See Ranking"],
     link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/aaic_chatbot.jpg", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/aaic_ranking.jpg"],
     title: "Financial Chatbot (2024)",
@@ -128,8 +171,9 @@ export const certifications = [
   },
   {
     logos: [ili],
-    linkText: "",
-    link: "",
+    hasEmblem: true,
+    linkText: "Visit ili.ir",
+    link: "https://www.ili.ir",
     title: "Iran Language Institute",
     type: "ol",
     body: [

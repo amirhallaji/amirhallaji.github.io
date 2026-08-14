@@ -15,8 +15,9 @@ const Hero = () => {
         <p className="heroEyebrow">ML Engineer at Snapp</p>
         <h1>My name is Amir.</h1>
         <h2>
-          I build production machine learning systems, and research drug–target
-          interaction with protein and molecule language models.
+          I work on LLMs and deep learning, build scalable software, and
+          research drug–target interaction with protein and molecule language
+          models.
         </h2>
         <div className="heroActions">
           <Button href={resumeUrl} target="_blank" rel="noreferrer">

@@ -1,6 +1,7 @@
 import Button from "./Button";
 import "../styles/SideMenu.css";
 import xmark from "../assets/images/xmark-solid.svg";
+import SiteNav from "./SiteNav";
 
 const SideMenu = (props) => {
   return (
@@ -12,78 +13,7 @@ const SideMenu = (props) => {
         onClick={() => props.setIsSideMenuOpen(false)}
       />
       <nav className="sideMenuNav">
-        <ul>
-          <li
-            onClick={() => {
-              props.setIsSideMenuOpen(false);
-              document
-                .getElementsByClassName("education")[0]
-                .scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            Education
-          </li>
-          <li
-            onClick={() => {
-              props.setIsSideMenuOpen(false);
-              document
-                .getElementsByClassName("publications")[0]
-                .scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            Publications
-          </li>
-          <li
-            onClick={() => {
-              props.setIsSideMenuOpen(false);
-              document
-                .getElementsByClassName("experiences")[0]
-                .scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            Experiences
-          </li>
-          <li
-            onClick={() => {
-              props.setIsSideMenuOpen(false);
-              document
-                .getElementsByClassName("certifications")[0]
-                .scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            Certifications
-          </li>
-          <li
-            onClick={() => {
-              props.setIsSideMenuOpen(false);
-              document
-                .getElementsByClassName("projects")[0]
-                .scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            Projects
-          </li>
-          <li
-            onClick={() => {
-              props.setIsSideMenuOpen(false);
-              document
-                .getElementsByClassName("about")[0]
-                .scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            About
-          </li>
-          <li
-            onClick={() => {
-              props.setIsSideMenuOpen(false);
-              document
-                .getElementsByClassName("contact")[0]
-                .scrollIntoView({ behavior: "smooth" });
-            }}
-          >
-            Contact
-          </li>
-        </ul>
+        <SiteNav onNavigate={() => props.setIsSideMenuOpen(false)} />
       </nav>
       <Button
         href="https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/resume/amirhallaji.pdf"
@@ -91,7 +21,7 @@ const SideMenu = (props) => {
         rel="noreferrer"
       >
         Download Resume
-      </Button>      
+      </Button>
     </div>
   );
 };

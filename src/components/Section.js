@@ -4,7 +4,7 @@ import Card from "./Card";
 
 const Section = (props) => {
   return (
-    <section className={`section subSection ${props.title}`}>
+    <section id={props.title} className={`section subSection ${props.title}`}>
       <h3 className="sectionTitle">{props.title}</h3>
       <main
         className={`sectionMain${

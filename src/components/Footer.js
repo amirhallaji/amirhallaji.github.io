@@ -1,39 +1,23 @@
 import "../styles/Footer.css";
 import Button from "./Button";
 import Logo from "./Logo";
-
-const scrollToSection = (className) => {
-  document
-    .getElementsByClassName(className)[0]
-    .scrollIntoView({ behavior: "smooth" });
-};
+import SiteNav from "./SiteNav";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer section">
       <section className="footerFirstSection">
-        <Logo variant="light" />
+        <Link to="/" aria-label="Home">
+          <Logo variant="light" />
+        </Link>
         <p>Dreams come true ...</p>
       </section>
       <section className="footerSecondSection">
         <section className="footerSections">
           <header>Sections</header>
           <nav>
-            <ul>
-              <li onClick={() => scrollToSection("education")}>Education</li>
-              <li onClick={() => scrollToSection("publications")}>
-                Publications
-              </li>
-              <li onClick={() => scrollToSection("experiences")}>
-                Experiences
-              </li>
-              <li onClick={() => scrollToSection("certifications")}>
-                Certifications
-              </li>
-              <li onClick={() => scrollToSection("projects")}>Projects</li>
-              <li onClick={() => scrollToSection("about")}>About</li>
-              <li onClick={() => scrollToSection("contact")}>Contact</li>
-            </ul>
+            <SiteNav />
           </nav>
         </section>
         <Button

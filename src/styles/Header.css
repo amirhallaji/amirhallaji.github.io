@@ -18,6 +18,29 @@
   align-self: center;
 }
 
+.headerLogo a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.headerNav a,
+.headerNav button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 4px 0;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.headerNav a:hover,
+.headerNav button:hover {
+  color: var(--primary);
+}
+
 .headerMenu {
   grid-column: 3 / span 1;
   width: 28px;
@@ -70,14 +93,8 @@
   }
 
   .headerNav li {
-    cursor: pointer;
     position: relative;
-    padding: 4px 0;
-    transition: color 0.2s ease;
-  }
-
-  .headerNav li:hover {
-    color: var(--primary);
+    padding: 0;
   }
 
   .header .button {

@@ -2,7 +2,9 @@ import hamburgerMenu from "../assets/images/bars-solid.svg";
 import "../styles/Header.css";
 import Button from "./Button";
 import Logo from "./Logo";
+import SiteNav from "./SiteNav";
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
   const headerRef = useRef();
@@ -28,7 +30,9 @@ const Header = (props) => {
   return (
     <header className="section header" ref={headerRef}>
       <div className="headerLogo">
-        <Logo />
+        <Link to="/" aria-label="Home">
+          <Logo />
+        </Link>
       </div>
       <img
         src={hamburgerMenu}
@@ -37,71 +41,7 @@ const Header = (props) => {
         onClick={() => props.setIsSideMenuOpen(true)}
       />
       <nav className="headerNav">
-        <ul>
-          <li
-            onClick={() =>
-              document
-                .getElementsByClassName("education")[0]
-                .scrollIntoView({ behavior: "smooth" })
-            }
-          >
-            Education
-          </li>
-          <li
-            onClick={() =>
-              document
-                .getElementsByClassName("publications")[0]
-                .scrollIntoView({ behavior: "smooth" })
-            }
-          >
-            Publications
-          </li>
-          <li
-            onClick={() =>
-              document
-                .getElementsByClassName("experiences")[0]
-                .scrollIntoView({ behavior: "smooth" })
-            }
-          >
-            Experiences
-          </li>
-          <li
-            onClick={() =>
-              document
-                .getElementsByClassName("certifications")[0]
-                .scrollIntoView({ behavior: "smooth" })
-            }
-          >
-            Certifications
-          </li>
-          <li
-            onClick={() =>
-              document
-                .getElementsByClassName("projects")[0]
-                .scrollIntoView({ behavior: "smooth" })
-            }
-          >
-            Projects
-          </li>
-          <li
-            onClick={() =>
-              document
-                .getElementsByClassName("about")[0]
-                .scrollIntoView({ behavior: "smooth" })
-            }
-          >
-            About
-          </li>
-          <li
-            onClick={() =>
-              document
-                .getElementsByClassName("contact")[0]
-                .scrollIntoView({ behavior: "smooth" })
-            }
-          >
-            Contact
-          </li>
-        </ul>
+        <SiteNav />
       </nav>
       <Button
         href="https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/resume/amirhallaji.pdf"
@@ -109,7 +49,7 @@ const Header = (props) => {
         rel="noreferrer"
       >
         Resume
-      </Button>    
+      </Button>
     </header>
   );
 };

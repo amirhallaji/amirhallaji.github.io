@@ -33,10 +33,20 @@
   color: var(--secondary);
 }
 
-.sideMenu li {
+.sideMenu a,
+.sideMenu button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
   cursor: pointer;
+  text-decoration: none;
+  text-align: start;
 }
 
+.sideMenu a:hover,
+.sideMenu button:hover,
 .sideMenu li:hover {
   color: var(--primary);
 }

@@ -1,11 +1,14 @@
 import amirHallaji from "../assets/images/amirhallaji.jpg";
 import "../styles/Hero.css";
 import Button from "./Button";
+import { useGoToSection } from "./SiteNav";
 
 const resumeUrl =
   "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/resume/amirhallaji.pdf";
 
 const Hero = () => {
+  const goToSection = useGoToSection();
+
   return (
     <section className="hero section">
       <div className="heroImageWrapper">
@@ -25,11 +28,7 @@ const Hero = () => {
           </Button>
           <Button
             className="buttonGhost"
-            onClick={() =>
-              document
-                .getElementsByClassName("publications")[0]
-                .scrollIntoView({ behavior: "smooth" })
-            }
+            onClick={() => goToSection("publications")}
           >
             Publications
           </Button>

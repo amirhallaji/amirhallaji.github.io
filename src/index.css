@@ -1,17 +1,25 @@
 :root {
   --primary: #658161;
-  --secondary:  #515a5a ;
+  --primary-dark: #4e684c;
+  --primary-soft: #e7eee6;
+  --secondary: #2c3532;
+  --muted: #4a5754;
   --other: #ffffff;
+  --bg: #f4f1ea;
+  --surface: #ffffff;
+  --border: rgba(101, 129, 97, 0.2);
+  --shadow: 0 12px 32px rgba(44, 53, 50, 0.08);
+  --radius: 16px;
   --robotoCondensed: "Roboto Condensed", sans-serif;
   --dmSans: "DM Sans", sans-serif;
   --regular: 400;
   --bold: 700;
-  --nav: var(--regular) 3.5vw var(--robotoCondensed);
-  --title: var(--regular) 11vw var(--robotoCondensed);
-  --subTitle: var(--regular) 8vw var(--dmSans);
-  --normal: var(--regular) 4.5vw var(--dmSans);
-  --sectionTitle: var(--regular) 14vw var(--robotoCondensed);
-  --cardTitle: var(--bold) 6.5vw var(--robotoCondensed);
+  --nav: 500 0.92rem / 1.2 var(--robotoCondensed);
+  --title: 700 clamp(2.4rem, 7vw, 4.5rem) / 1.05 var(--robotoCondensed);
+  --subTitle: 400 clamp(1.05rem, 2.1vw, 1.35rem) / 1.55 var(--dmSans);
+  --normal: 400 1.05rem / 1.65 var(--dmSans);
+  --sectionTitle: 700 clamp(2rem, 4.2vw, 3.1rem) / 1.1 var(--robotoCondensed);
+  --cardTitle: 700 clamp(1.05rem, 1.5vw, 1.3rem) / 1.35 var(--robotoCondensed);
 }
 
 * {
@@ -20,12 +28,18 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 88px;
+}
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: var(--dmSans);
+  background: var(--bg);
+  color: var(--secondary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -41,35 +55,43 @@ code {
 }
 
 a {
-  word-break: break-all;
+  color: var(--primary-dark);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 
 @media screen and (min-width: 430px) {
-  :root {
-    --title: var(--regular) 4.7vw var(--robotoCondensed);
-    --subTitle: var(--regular) 3.4vw var(--dmSans);
-    --sectionTitle: var(--regular) 6.65vw var(--robotoCondensed);
-    --cardTitle: var(--bold) 3.2vw var(--robotoCondensed);
-    --normal: var(--regular) 2.23vw var(--dmSans);
-    --nav: var(--regular) 1.75vw var(--robotoCondensed);
-  }
-
   .section {
     grid-template-columns: repeat(6, minmax(0, 1fr));
+    padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  :root {
-    --nav: var(--regular) 0.9vw var(--robotoCondensed);
-    --normal: var(--regular) 1.14vw var(--dmSans);
-    --subTitle: var(--regular) 2.1vw var(--dmSans);
-    --sectionTitle: var(--regular) 3.44vw var(--robotoCondensed);
-    --cardTitle: var(--bold) 1.65vw var(--robotoCondensed);
-  }
-
   .section {
     grid-template-columns: repeat(12, minmax(0, 1fr));
     padding: 0 70px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .section {
+    padding: 0 max(70px, calc((100vw - 1240px) / 2));
   }
 }

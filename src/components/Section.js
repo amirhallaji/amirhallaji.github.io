@@ -23,6 +23,18 @@ const Section = (props) => {
               isList={education.type === "ol"}
             />
           ))
+        ) : props.title === "publications" ? (
+          data.publications.map((publication) => (
+            <Card
+              key={publication.title}
+              logos={publication.logos}
+              title={publication.title}
+              body={publication.body}
+              isList={publication.type === "ol"}
+              link={publication.link}
+              linkText={publication.linkText}
+            />
+          ))
         ) : props.title === "experiences" ? (
           data.experiences.map((experience) => (
             <Card
@@ -60,35 +72,47 @@ const Section = (props) => {
           ))
         ) : props.title === "about" ? (
           <div className="sectionMainBody">
-            Welcome to my website! I'm Amir Hallaji, a MSc student in Artificial Intelligence and a 
-            Software Backend Engineer at Snapp Inc. I am passionate about AI and Software to create
-            products to help people live better in this world.
-
+            <p>
+              I'm Amir Hallaji, an ML Engineer at Snapp and a Master's graduate
+              in Artificial Intelligence from Shahid Beheshti University.
+            </p>
+            <p>
+              I work on production machine learning systems in high-traffic
+              environments, and my research focuses on bioinformatics and
+              drug–target interaction prediction.
+            </p>
           </div>
         ) : (
           <div className="sectionMainBody">
-            Thank you for your interest! I would be delighted to connect and
-            discuss how we can collaborate. Feel free to reach out to me using
-            any of the following contact methods:
-            <br />
-            <br />
-            Email:{" "}
-            <a href="mailto:me@amirhallaji.com">
-              me@amirhallaji.com
-            </a>
-            <br />
-            LinkedIn:{" "}
-            <a
-              href="https://www.linkedin.com/in/amirhallaji/"
-              target="_blank"
-            >
-              https://www.linkedin.com/in/amirhallaji/
-            </a>
-            <br />
-            GitHub:{" "}
-            <a href="https://github.com/amirhallaji" target="_blank">
-              https://github.com/amirhallaji
-            </a>
+            <p>
+              I'd be glad to connect. Reach me through any of these:
+            </p>
+            <ul className="contactList">
+              <li>
+                <span>Email</span>
+                <a href="mailto:me@amirhallaji.com">me@amirhallaji.com</a>
+              </li>
+              <li>
+                <span>LinkedIn</span>
+                <a
+                  href="https://www.linkedin.com/in/amirhallaji/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  amirhallaji
+                </a>
+              </li>
+              <li>
+                <span>GitHub</span>
+                <a
+                  href="https://github.com/amirhallaji"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  amirhallaji
+                </a>
+              </li>
+            </ul>
           </div>
         )}
       </main>

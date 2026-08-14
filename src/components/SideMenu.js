@@ -27,6 +27,16 @@ const SideMenu = (props) => {
             onClick={() => {
               props.setIsSideMenuOpen(false);
               document
+                .getElementsByClassName("publications")[0]
+                .scrollIntoView({ behavior: "smooth" });
+            }}
+          >
+            Publications
+          </li>
+          <li
+            onClick={() => {
+              props.setIsSideMenuOpen(false);
+              document
                 .getElementsByClassName("experiences")[0]
                 .scrollIntoView({ behavior: "smooth" });
             }}
@@ -75,10 +85,12 @@ const SideMenu = (props) => {
           </li>
         </ul>
       </nav>
-      <Button>
-        <a href="https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/resume/amirhallaji.pdf" download target="blank">
-          Download Resume
-        </a>
+      <Button
+        href="https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/resume/amirhallaji.pdf"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Download Resume
       </Button>      
     </div>
   );

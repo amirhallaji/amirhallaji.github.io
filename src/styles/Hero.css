@@ -1,78 +1,103 @@
 .hero {
-  background-color: var(--primary);
-  row-gap: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  align-items: center;
+  row-gap: 32px;
+  padding-top: 36px;
+  padding-bottom: 48px;
 }
 
 .heroImageWrapper {
   justify-self: center;
   grid-column: 1 / span 3;
-  width: 63%;
-  aspect-ratio: 1 / 1;
+  width: min(72%, 280px);
+  aspect-ratio: 4 / 5;
   overflow: hidden;
-  border-radius: 50%;
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  background: var(--primary-soft);
 }
 
 .heroImage {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: center;
-  transform: scale(2.5);
-  object-position: -0.50vw -0.75vw;
+  object-position: 20% 15%;
+  transform: scale(1.4);
+  transform-origin: 20% 20%;
 }
 
 .heroMain {
   grid-column: 1 / span 3;
   text-align: center;
   display: grid;
-  grid-template-rows: repeat(2, auto);
-  gap: 20px;
+  justify-items: center;
+  gap: 16px;
+}
+
+.heroEyebrow {
+  font: 600 0.82rem / 1.2 var(--robotoCondensed);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--primary);
 }
 
 .heroMain h1 {
   font: var(--title);
-  color: var(--other);
+  color: var(--secondary);
 }
 
 .heroMain h2 {
   font: var(--subTitle);
-  color: var(--secondary);
+  color: var(--muted);
+  max-width: 34rem;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 8px;
 }
 
 @media screen and (min-width: 430px) {
   .hero {
-    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 64px;
   }
 
-
-
   .heroImageWrapper {
-    width: 88%;
+    width: 100%;
+    max-width: none;
     justify-self: start;
+    grid-column: 1 / span 2;
   }
 
   .heroMain {
     text-align: start;
-    grid-column: 4 / span 3;
-    justify-content: end;
-    gap: 30px;
+    justify-items: start;
+    grid-column: 3 / span 4;
+    gap: 18px;
+  }
+
+  .heroActions {
+    justify-content: start;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .hero {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 72px;
+    padding-bottom: 88px;
+    column-gap: 40px;
   }
 
   .heroImageWrapper {
     grid-column: 2 / span 4;
-    width: 76.8%;
+    width: 86%;
   }
 
   .heroMain {
     grid-column: 6 / span 6;
+    gap: 20px;
   }
 }

@@ -22,6 +22,7 @@ function App() {
       <main>
         <Hero />
         <Section title="education" />
+        <Section title="publications" />
         <Section title="experiences" />
         <Section title="certifications" />
         <Section title="projects" />

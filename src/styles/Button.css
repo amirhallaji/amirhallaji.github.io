@@ -1,15 +1,39 @@
 .button {
-  padding: 15px 0;
-  font: var(--normal);
-  border: 1px solid var(--other);
-  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 22px;
+  font: 600 0.95rem / 1.2 var(--dmSans);
+  border: 1px solid var(--primary);
+  border-radius: 999px;
   background-color: var(--primary);
   color: var(--other);
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .button:hover {
-  background-color: var(--other);
-  color: var(--primary);
-  transition: 0.25s linear;
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: var(--other);
+}
+
+.button.buttonGhost {
+  background: transparent;
+  color: var(--secondary);
+  border-color: var(--border);
+}
+
+.button.buttonGhost:hover {
+  background: var(--primary-soft);
+  border-color: var(--primary);
+  color: var(--primary-dark);
+}
+
+.button a {
+  color: inherit;
+  text-decoration: none;
 }

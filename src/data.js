@@ -15,6 +15,7 @@ import snackflix from "./assets/images/snackflix.png";
 import idea from "./assets/images/idea.png";
 import rankings from "./assets/images/rankings.png";
 import beheshtray from "./assets/images/beheshtray.png";
+import journal from "./assets/images/journal.svg";
 
 export const educations = [
   {
@@ -28,6 +29,24 @@ export const educations = [
     title:
       "(2018 - 2022), BSc in Computer Engineering at Shahid Beheshti University",
     body: "Gratuated as a computer engineer.\nGPA: 18.00 / 20.\nThesis: Linkedin Data Analysis",
+  },
+];
+
+export const publications = [
+  {
+    logos: [journal],
+    title:
+      "(2026), Structure-free drug–target affinity prediction using protein and molecule language models",
+    type: "ol",
+    body: [
+      "Journal of Cheminformatics, Volume 18, Article 21 (Open Access)",
+      "Authors: Amir Hallaji Bidgoli, Morteza Mahdavi & Hamed Malek",
+      "Proposed and implemented a novel deep learning approach using pretrained language models (ChemBERTa and ESM2) to predict drug-target affinity without relying on 3D structural data",
+      "Introduced a customized Residual Inception neural network architecture to integrate protein and molecule sequence embeddings, achieving multi-scale feature extraction",
+      "Achieved state-of-the-art performance on benchmark datasets (Davis, KIBA, BindingDB)",
+    ],
+    linkText: "Read the paper",
+    link: "https://link.springer.com/article/10.1186/s13321-025-01146-6",
   },
 ];
 

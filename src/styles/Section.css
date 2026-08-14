@@ -1,6 +1,7 @@
 .subSection {
-  padding-top: 50px;
-  row-gap: 30px;
+  padding-top: 72px;
+  row-gap: 28px;
+  scroll-margin-top: 88px;
 }
 
 .sectionTitle {
@@ -10,17 +11,65 @@
   text-transform: capitalize;
 }
 
+.sectionTitle::after {
+  content: "";
+  display: block;
+  width: 44px;
+  height: 3px;
+  margin-top: 12px;
+  background: var(--primary);
+  border-radius: 999px;
+}
+
 .sectionMain {
   grid-column: 1 / span 3;
   display: grid;
   grid-template-columns: auto;
-  row-gap: 30px;
+  row-gap: 20px;
 }
 
 .sectionMainBody {
   font: var(--normal);
+  color: var(--muted);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+
+.sectionMainBody p + p {
+  margin-top: 1rem;
+}
+
+.contactList {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.contactList li {
+  display: grid;
+  gap: 4px;
+}
+
+.contactList span {
+  font: 600 0.78rem / 1.2 var(--robotoCondensed);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.contactList a {
   color: var(--secondary);
-  text-align: justify;
+  text-decoration: none;
+  word-break: normal;
+  overflow-wrap: anywhere;
+}
+
+.contactList a:hover {
+  color: var(--primary);
 }
 
 @media screen and (min-width: 430px) {
@@ -28,9 +77,17 @@
   .sectionMain {
     grid-column: 1 / span 6;
   }
+
+  .sectionMainBody {
+    padding: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .subSection {
+    padding-top: 96px;
+  }
+
   .sectionTitle,
   .sectionMain {
     grid-column: 2 / span 10;
@@ -39,5 +96,10 @@
   .sectionMain.grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 20px;
+  }
+
+  .contactList {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
   }
 }

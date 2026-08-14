@@ -1,4 +1,4 @@
-import amirHallaji from "../assets/images/amirhallaji.jpg";
+import amirHallaji from "../assets/images/amirhallaji.webp";
 import "../styles/Hero.css";
 import Button from "./Button";
 import { useGoToSection } from "./SiteNav";
@@ -12,7 +12,15 @@ const Hero = () => {
   return (
     <section className="hero section">
       <div className="heroImageWrapper">
-        <img src={amirHallaji} alt="Amir Hallaji" className="heroImage" />
+        <img
+          src={amirHallaji}
+          alt="Amir Hallaji"
+          className="heroImage"
+          width={800}
+          height={1000}
+          fetchPriority="high"
+          decoding="async"
+        />
       </div>
       <main className="heroMain">
         <p className="heroEyebrow">ML Engineer at Snapp</p>

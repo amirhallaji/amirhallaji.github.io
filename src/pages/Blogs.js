@@ -15,8 +15,7 @@ const Blogs = () => {
         <p className="heroEyebrow">Writing</p>
         <h1>Blogs</h1>
         <p>
-          Notes on LLMs, deep learning, and building software that scales.
-          Posts are written in Markdown.
+          Notes
         </p>
       </header>
       <div className="blogCardList">

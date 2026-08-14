@@ -3,16 +3,16 @@ import snapp from "./assets/images/snapp.jpeg";
 import aic from "./assets/images/aic.jpg"
 import salam from "./assets/images/salam.jpeg";
 import mavaratech from "./assets/images/mavaratech.png";
-import irancellLabs from "./assets/images/irancelllabs.jpg"
-import irancelhackathon from "./assets/images/irancel-hackathon.jpg"
-import olympics2024 from "./assets/images/nlp-olympics-2024.jpg";
-import olympicsRanking from "./assets/images/olympics-ranking.png"
-import aaicCertificate from "./assets/images/aaic_chatbot.jpg";
-import aaicRankings from "./assets/images/aaic_ranking.jpg";
-import ili from "./assets/images/ili.png"
-import snackflix from "./assets/images/snackflix.png";
+import irancellLabs from "./assets/images/irancelllabs.webp"
+import irancelhackathon from "./assets/images/irancel-hackathon.webp"
+import olympics2024 from "./assets/images/nlp-olympics-2024.webp";
+import olympicsRanking from "./assets/images/olympics-ranking.webp"
+import aaicCertificate from "./assets/images/aaic_chatbot.webp";
+import aaicRankings from "./assets/images/aaic_ranking.webp";
+import ili from "./assets/images/ili.webp"
+import snackflix from "./assets/images/snackflix.webp";
 import idea from "./assets/images/idea.png";
-import rankings from "./assets/images/rankings.png";
+import rankings from "./assets/images/rankings.webp";
 import beheshtray from "./assets/images/beheshtray.png";
 import journal from "./assets/images/journal.svg";
 
@@ -137,7 +137,7 @@ export const certifications = [
     logos: [irancellLabs, irancelhackathon],
     hasGallery: true,
     linkText: ["See Certificate", "See Ranking"],
-    link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/irancelllabs.jpg", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/irancel-hackathon.jpg"],
+    link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/irancelllabs.webp", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/irancel-hackathon.webp"],
     title: "Irancell Labs Artificial Intelligence Hackathon (2023)",
     type: "ol",
     body: [
@@ -149,7 +149,7 @@ export const certifications = [
     logos: [olympics2024, olympicsRanking],
     hasGallery: true,
     linkText: ["See Certificate", "See Ranking"],
-    link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/nlp-olympics-2024.jpg", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/olympics-ranking.png"],
+    link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/nlp-olympics-2024.webp", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/olympics-ranking.webp"],
     title: "Tech AI Olympics in NLP (2024)",
     type: "ol",
     body: [
@@ -161,7 +161,7 @@ export const certifications = [
     logos: [aaicCertificate, aaicRankings],
     hasGallery: true,
     linkText: ["See Certificate", "See Ranking"],
-    link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/aaic_chatbot.jpg", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/aaic_ranking.jpg"],
+    link: ["https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/aaic_chatbot.webp", "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/assets/images/aaic_ranking.webp"],
     title: "Financial Chatbot (2024)",
     type: "ol",
     body: [

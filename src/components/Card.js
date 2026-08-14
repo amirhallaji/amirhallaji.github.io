@@ -25,10 +25,10 @@ const Card = (props) => {
               onClick={() => setLightboxSrc(logo)}
               aria-label={`View ${props.title} image`}
             >
-              <img src={logo} alt="" />
+              <img src={logo} alt="" loading="lazy" decoding="async" />
             </button>
           ) : (
-            <img src={logo} key={index} alt="" />
+            <img src={logo} key={index} alt="" loading="lazy" decoding="async" />
           )
         )}
       </header>

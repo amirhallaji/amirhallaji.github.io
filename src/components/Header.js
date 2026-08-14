@@ -3,6 +3,7 @@ import "../styles/Header.css";
 import Button from "./Button";
 import Logo from "./Logo";
 import SiteNav from "./SiteNav";
+import { resumePagePath } from "../lib/resume";
 import { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
@@ -43,13 +44,7 @@ const Header = (props) => {
       <nav className="headerNav">
         <SiteNav />
       </nav>
-      <Button
-        href="https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/resume/amirhallaji.pdf"
-        target="_blank"
-        rel="noreferrer"
-      >
-        Resume
-      </Button>
+      <Button to={resumePagePath}>Resume</Button>
     </header>
   );
 };

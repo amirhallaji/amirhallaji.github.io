@@ -2,9 +2,7 @@ import amirHallaji from "../assets/images/amirhallaji.webp";
 import "../styles/Hero.css";
 import Button from "./Button";
 import { useGoToSection } from "./SiteNav";
-
-const resumeUrl =
-  "https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/resume/amirhallaji.pdf";
+import { resumePagePath } from "../lib/resume";
 
 const Hero = () => {
   const goToSection = useGoToSection();
@@ -31,9 +29,7 @@ const Hero = () => {
           models.
         </h2>
         <div className="heroActions">
-          <Button href={resumeUrl} target="_blank" rel="noreferrer">
-            Download Resume
-          </Button>
+          <Button to={resumePagePath}>Download Resume</Button>
           <Button
             className="buttonGhost"
             onClick={() => goToSection("publications")}

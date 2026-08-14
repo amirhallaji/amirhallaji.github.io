@@ -1,0 +1,53 @@
+.resumePage {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  row-gap: 24px;
+}
+
+.resumePageHeader,
+.resumeFrameWrap {
+  min-width: 0;
+  grid-column: 1 / -1;
+}
+
+.resumePageHeader {
+  display: grid;
+  gap: 12px;
+}
+
+.resumePageHeader h1 {
+  font: var(--title);
+  color: var(--secondary);
+}
+
+.resumeActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.resumeFrameWrap {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  height: min(1100px, calc(100dvh - 220px));
+  min-height: 70vh;
+}
+
+.resumeFrame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: var(--surface);
+}
+
+@media screen and (min-width: 1024px) {
+  .resumePage {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}

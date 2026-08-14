@@ -2,6 +2,7 @@ import Button from "./Button";
 import "../styles/SideMenu.css";
 import xmark from "../assets/images/xmark-solid.svg";
 import SiteNav from "./SiteNav";
+import { resumePagePath } from "../lib/resume";
 
 const SideMenu = (props) => {
   return (
@@ -16,9 +17,8 @@ const SideMenu = (props) => {
         <SiteNav onNavigate={() => props.setIsSideMenuOpen(false)} />
       </nav>
       <Button
-        href="https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/resume/amirhallaji.pdf"
-        target="_blank"
-        rel="noreferrer"
+        to={resumePagePath}
+        onClick={() => props.setIsSideMenuOpen(false)}
       >
         Download Resume
       </Button>

@@ -2,6 +2,7 @@ import "../styles/Footer.css";
 import Button from "./Button";
 import Logo from "./Logo";
 import SiteNav from "./SiteNav";
+import { resumePagePath } from "../lib/resume";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -20,13 +21,7 @@ const Footer = () => {
             <SiteNav />
           </nav>
         </section>
-        <Button
-          href="https://github.com/amirhallaji/amirhallaji.github.io/blob/master/src/resume/amirhallaji.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Download Resume
-        </Button>
+        <Button to={resumePagePath}>Download Resume</Button>
       </section>
     </footer>
   );

@@ -6,6 +6,7 @@ import SideMenu from "./components/SideMenu";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import BlogPost from "./pages/BlogPost";
+import Resume from "./pages/Resume";
 import "./styles/Blog.css";
 
 const ScrollManager = () => {
@@ -48,6 +49,7 @@ function App() {
       />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:slug" element={<BlogPost />} />
       </Routes>

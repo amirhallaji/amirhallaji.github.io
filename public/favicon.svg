@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Amir Hallaji">
+  <rect width="32" height="32" rx="7.04" fill="#2a241c"/>
+  <g fill="#e07a12" transform="translate(7.329 20.339) scale(0.014720 -0.014720)">
+    <path d="M377 0 348 129H189L160 0H0L172 708H373L544 0ZM271 554H267L207 253H328Z"/>
+  </g>
+  <g fill="#e07a12" transform="translate(15.706 20.339) scale(0.014720 -0.014720)">
+    <path d="M387 0V296H222V0H63V708H222V439H387V708H546V0Z"/>
+  </g>
+</svg>

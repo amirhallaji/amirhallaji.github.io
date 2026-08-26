@@ -87,7 +87,7 @@ export const publications = [
 export const experiences = [
   {
     logos: [snapp],
-    title: "(2022 - Now), AI Pricing at Snapp Inc",
+    title: "(2022 - Now), Snapp Inc",
     roles: ["Senior Software Engineer", "Software Engineer"],
     type: "ol",
     body: [

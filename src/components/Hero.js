@@ -21,7 +21,7 @@ const Hero = () => {
         />
       </div>
       <main className="heroMain">
-        <p className="heroEyebrow">ML Engineer at Snapp</p>
+        <p className="heroEyebrow">Senior ML Engineer at Snapp</p>
         <h1>My name is Amir.</h1>
         <h2>
           I work on LLMs and deep learning, build scalable software, and

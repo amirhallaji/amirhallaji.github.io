@@ -88,7 +88,7 @@ const Section = (props) => {
         ) : props.title === "about" ? (
           <div className="sectionMainBody">
             <p>
-              I'm Amir Hallaji, an ML Engineer at Snapp and a Master's graduate
+              I'm Amir Hallaji, a Senior ML Engineer at Snapp and a Master's graduate
               in Artificial Intelligence from Shahid Beheshti University.
             </p>
             <p>

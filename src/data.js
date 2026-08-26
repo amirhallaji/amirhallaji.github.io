@@ -87,14 +87,16 @@ export const publications = [
 export const experiences = [
   {
     logos: [snapp],
-    title: "(2022 - Now), Software Engineer at Snapp Inc",
+    title: "(2022 - Now), AI Pricing at Snapp Inc",
+    roles: ["Senior Software Engineer", "Software Engineer"],
     type: "ol",
     body: [
-      "Designed and implemented microservices for the Pricing team, including new features, bug fixes, and performance work",
-      "Managed Kubernetes deployments",
-      "Implemented CI/CD in the GitLab pipeline",
-      "Monitored services with Grafana dashboards",
-      "Held knowledge sharing sessions",
+      "Built and operated production services on the AI Pricing team that handle 400+ RPS under live traffic",
+      "Designed and shipped pricing microservices — new features, reliability work, and performance improvements",
+      "Implemented infrastructure for A/B tests, shadow tests, and related experiment workflows so pricing changes can be evaluated safely in production",
+      "Added observability across services, including metrics, Grafana dashboards, and alerting",
+      "Owned Kubernetes deployments and GitLab CI/CD pipelines for the team's services",
+      "Ran knowledge-sharing sessions on production systems, pricing infrastructure, and ML in high-traffic environments",
     ],
   },
   {

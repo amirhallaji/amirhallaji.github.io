@@ -42,6 +42,7 @@ const Section = (props) => {
                 key={experience.title}
                 logos={experience.logos}
                 title={experience.title}
+                roles={experience.roles}
                 body={experience.body}
                 isList={experience.type === "ol"}
               />

@@ -40,6 +40,15 @@ const Card = (props) => {
         }`}
       >
         <header className="cardMainTitle">{props.title}</header>
+        {props.roles?.length ? (
+          <ul className="cardRoles">
+            {props.roles.map((role) => (
+              <li key={role} className="cardRole">
+                {role}
+              </li>
+            ))}
+          </ul>
+        ) : null}
         {props.isList ? (
           <ul className="cardMainBody">
             {props.body.map((item, index) => (

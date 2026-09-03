@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
 import BlogPost from "./pages/BlogPost";
 import Resume from "./pages/Resume";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 import "./styles/Blog.css";
 
 const ScrollManager = () => {
@@ -47,6 +48,7 @@ function App() {
         setIsSideMenuOpen={setIsSideMenuOpen}
         isSideMenuOpen={isSideMenuOpen}
       />
+      <ScrollToTopButton hide={isSideMenuOpen} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/resume" element={<Resume />} />

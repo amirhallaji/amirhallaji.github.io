@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5b1aa07.css",
-    "main.js": "/static/js/main.ac382a0a.js",
+    "main.css": "/static/css/main.82dc32d7.css",
+    "main.js": "/static/js/main.2379654e.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/irancel-hackathon.webp": "/static/media/irancel-hackathon.7344df69f860f4a2d4f7.webp",
     "static/media/aaic_chatbot.webp": "/static/media/aaic_chatbot.05da2d127fecaf3f8da6.webp",
@@ -17,12 +17,12 @@
     "static/media/journal.svg": "/static/media/journal.910ccc76390154ddd9db594aea9c2bc0.svg",
     "static/media/bars-solid.svg": "/static/media/bars-solid.2909fcb3d1813ce4a2f16635defa9fdc.svg",
     "static/media/xmark-solid.svg": "/static/media/xmark-solid.c4eddf825a20ed794492ff631e7e2fef.svg",
-    "main.d5b1aa07.css.map": "/static/css/main.d5b1aa07.css.map",
-    "main.ac382a0a.js.map": "/static/js/main.ac382a0a.js.map",
+    "main.82dc32d7.css.map": "/static/css/main.82dc32d7.css.map",
+    "main.2379654e.js.map": "/static/js/main.2379654e.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5b1aa07.css",
-    "static/js/main.ac382a0a.js"
+    "static/css/main.82dc32d7.css",
+    "static/js/main.2379654e.js"
   ]
 }

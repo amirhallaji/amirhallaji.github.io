@@ -131,6 +131,8 @@ export const volunteerWorks = [
       "Teaching AI and ML to students",
       "Mentoring new members",
     ],
+    linkText: "Visit sbuaic.ir",
+    link: "https://sbuaic.ir/",
   },
   {
     logos: [salam],

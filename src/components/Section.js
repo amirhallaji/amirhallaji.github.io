@@ -55,6 +55,8 @@ const Section = (props) => {
                 title={work.title}
                 body={work.body}
                 isList={work.type === "ol"}
+                link={work.link}
+                linkText={work.linkText}
               />
             ))}
           </>

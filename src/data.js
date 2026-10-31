@@ -58,7 +58,15 @@ export const publications = [
     body: [
       "Journal of Cheminformatics, Volume 18, Article 21 (Open Access)",
       <>
-        Authors: Amir Hallaji Bidgoli,{" "}
+        Authors:{" "}
+        <a
+          href="https://scholar.google.com/citations?user=J-ViBUoAAAAJ&hl=en"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Amir Hallaji Bidgoli
+        </a>
+        ,{" "}
         <a
           href="https://scholar.google.com/citations?user=xrTDvV4AAAAJ&hl=en"
           target="_blank"

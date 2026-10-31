@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.82dc32d7.css",
-    "main.js": "/static/js/main.18e45211.js",
+    "main.js": "/static/js/main.c3348b2a.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/irancel-hackathon.webp": "/static/media/irancel-hackathon.7344df69f860f4a2d4f7.webp",
     "static/media/aaic_chatbot.webp": "/static/media/aaic_chatbot.05da2d127fecaf3f8da6.webp",
@@ -18,11 +18,11 @@
     "static/media/bars-solid.svg": "/static/media/bars-solid.2909fcb3d1813ce4a2f16635defa9fdc.svg",
     "static/media/xmark-solid.svg": "/static/media/xmark-solid.c4eddf825a20ed794492ff631e7e2fef.svg",
     "main.82dc32d7.css.map": "/static/css/main.82dc32d7.css.map",
-    "main.18e45211.js.map": "/static/js/main.18e45211.js.map",
+    "main.c3348b2a.js.map": "/static/js/main.c3348b2a.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.82dc32d7.css",
-    "static/js/main.18e45211.js"
+    "static/js/main.c3348b2a.js"
   ]
 }

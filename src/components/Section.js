@@ -134,6 +134,16 @@ const Section = (props) => {
                   amirhallaji
                 </a>
               </li>
+              <li>
+                <span>Google Scholar</span>
+                <a
+                  href="https://scholar.google.com/citations?user=J-ViBUoAAAAJ&hl=en"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Amir Hallaji
+                </a>
+              </li>
             </ul>
           </div>
         )}

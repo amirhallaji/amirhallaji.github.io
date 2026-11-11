@@ -21,7 +21,7 @@ const Hero = () => {
         />
       </div>
       <main className="heroMain">
-        <h1>My name is Amir.</h1>
+        <h1>I'm Amir.</h1>
         <h2>
           Still learning, enjoying a swim, writing some code, and exploring how
           AI can help us understand biology.

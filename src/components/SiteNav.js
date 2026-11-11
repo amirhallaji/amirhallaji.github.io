@@ -2,8 +2,9 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 
 export const NAV_ITEMS = [
   { type: "section", id: "education", label: "Education" },
-  { type: "section", id: "publications", label: "Publications" },
   { type: "section", id: "experiences", label: "Experiences" },
+  { type: "section", id: "publications", label: "Publications" },
+  { type: "section", id: "volunteer", label: "Volunteer work" },
   { type: "section", id: "certifications", label: "Certifications" },
   { type: "section", id: "projects", label: "Projects" },
   { type: "route", to: "/blogs", label: "Blogs" },

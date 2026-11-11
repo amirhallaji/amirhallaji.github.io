@@ -21,12 +21,10 @@ const Hero = () => {
         />
       </div>
       <main className="heroMain">
-        <p className="heroEyebrow">Senior ML Engineer at Snapp</p>
         <h1>My name is Amir.</h1>
         <h2>
-          I work on LLMs and deep learning, build scalable software, and
-          research drug–target interaction with protein and molecule language
-          models.
+          Still learning, enjoying a swim, writing some code, and exploring how
+          AI can help us understand biology.
         </h2>
         <div className="heroActions">
           <Button to={resumePagePath}>Download Resume</Button>

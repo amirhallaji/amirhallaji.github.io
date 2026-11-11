@@ -16,8 +16,9 @@ const Home = () => {
     <main>
       <Hero />
       <Section title="education" />
-      <Section title="publications" />
       <Section title="experiences" />
+      <Section title="publications" />
+      <Section title="volunteer" />
       <Section title="certifications" />
       <Section title="projects" />
       <section id="blogs" className="section subSection blogs">

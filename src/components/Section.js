@@ -5,7 +5,9 @@ import Card from "./Card";
 const Section = (props) => {
   return (
     <section id={props.title} className={`section subSection ${props.title}`}>
-      <h3 className="sectionTitle">{props.title}</h3>
+      <h3 className="sectionTitle">
+        {props.title === "volunteer" ? "Volunteer work" : props.title}
+      </h3>
       <main
         className={`sectionMain${
           props.title === "certifications" || props.title === "projects"
@@ -47,8 +49,9 @@ const Section = (props) => {
                 isList={experience.type === "ol"}
               />
             ))}
-            <h4 className="sectionSubtitle">Volunteer work</h4>
-            {data.volunteerWorks.map((work) => (
+          </>
+        ) : props.title === "volunteer" ? (
+          data.volunteerWorks.map((work) => (
               <Card
                 key={work.title}
                 logos={work.logos}
@@ -58,8 +61,7 @@ const Section = (props) => {
                 link={work.link}
                 linkText={work.linkText}
               />
-            ))}
-          </>
+          ))
         ) : props.title === "certifications" ? (
           data.certifications.map((certification) => (
             <Card

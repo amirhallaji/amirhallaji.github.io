@@ -10,7 +10,9 @@ const BlogCard = ({ post }) => {
       lang={isFa ? "fa" : "en"}
       dir={isFa ? "rtl" : "ltr"}
     >
-      <p className="blogCardDate">{formatPostDate(post.date, post.lang)}</p>
+      <p className="blogCardDate">
+        {formatPostDate(post.date, post.lang, post.datePrecision)}
+      </p>
       <h3 className="blogCardTitle">
         <Link to={`/blogs/${post.slug}`}>{post.title}</Link>
       </h3>

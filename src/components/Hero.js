@@ -23,8 +23,8 @@ const Hero = () => {
       <main className="heroMain">
         <h1>I'm Amir.</h1>
         <h2>
-          Still learning, enjoying a swim, writing some code, and exploring how
-          AI can help us understand biology.
+          Still learning, enjoying a swim, writing some code, and exploring AI,
+          LLMs, and what happens when different ideas come together.
         </h2>
         <div className="heroActions">
           <Button to={resumePagePath}>Download Resume</Button>

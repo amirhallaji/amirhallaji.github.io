@@ -123,6 +123,46 @@
   color: var(--muted);
 }
 
+.blogCover {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: clamp(20rem, 55vw, 30rem);
+  display: flex;
+  align-items: flex-end;
+  padding: clamp(1.25rem, 4vw, 2.5rem);
+  border-radius: var(--radius);
+  background: var(--secondary);
+}
+
+.blogCoverImage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  z-index: -2;
+}
+
+.blogCover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(to bottom, rgba(10, 28, 24, 0.08) 25%, rgba(10, 28, 24, 0.94) 100%);
+}
+
+.blogArticle .blogCover h1,
+.blogArticle .blogCover .blogCardDate {
+  color: #fff;
+}
+
+.blogCoverText {
+  display: grid;
+  gap: 12px;
+}
+
 .blogProse > * + * {
   margin-top: 1.1rem;
 }

@@ -50,8 +50,19 @@ const BlogPost = () => {
         <Link to="/blogs" className="blogBackLink">
           {isFa ? "همه نوشته‌ها" : "← All posts"}
         </Link>
-        <p className="blogCardDate">{formatPostDate(post.date, post.lang)}</p>
-        <h1>{post.title}</h1>
+        <header className={post.cover ? "blogCover" : "blogArticleHeader"}>
+          {post.cover ? (
+            <img className="blogCoverImage" src={post.cover} alt="" />
+          ) : null}
+          <div className="blogCoverText">
+            {post.date ? (
+              <p className="blogCardDate">
+                {formatPostDate(post.date, post.lang, post.datePrecision)}
+              </p>
+            ) : null}
+            <h1>{post.title}</h1>
+          </div>
+        </header>
         <div className="blogProse">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {post.content}

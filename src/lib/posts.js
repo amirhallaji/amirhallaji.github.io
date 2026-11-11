@@ -1,16 +1,23 @@
 const POSTS_BASE = `${process.env.PUBLIC_URL || ""}/posts`;
 
 // Add a slug here for each file in public/posts/<slug>.md
-export const blogSlugs = [];
+export const blogSlugs = ["pixel-how-it-started"];
 
-export function formatPostDate(date, lang = "en") {
+export function formatPostDate(date, lang = "en", precision = "day") {
   if (!date) return "";
   const parsed = new Date(`${date}T00:00:00`);
   if (Number.isNaN(parsed.getTime())) return date;
+  if (lang === "fa" && precision === "month") {
+    const parts = new Intl.DateTimeFormat("fa-IR", {
+      calendar: "persian", year: "numeric", month: "long",
+    }).formatToParts(parsed);
+    return `${parts.find((part) => part.type === "month").value} ${parts.find((part) => part.type === "year").value}`;
+  }
   return parsed.toLocaleDateString(lang === "fa" ? "fa-IR" : "en-US", {
+    calendar: "persian",
     year: "numeric",
     month: "long",
-    day: "numeric",
+    ...(precision === "month" ? {} : { day: "numeric" }),
   });
 }
 
@@ -49,7 +56,9 @@ export async function loadPosts() {
         slug,
         title: meta.title || slug,
         date: meta.date || "",
+        datePrecision: meta.datePrecision === "month" ? "month" : "day",
         summary: meta.summary || "",
+        cover: meta.cover || "",
         lang: meta.lang === "fa" ? "fa" : "en",
         content,
       };

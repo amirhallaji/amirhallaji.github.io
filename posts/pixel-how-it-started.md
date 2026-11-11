@@ -4,7 +4,7 @@ summary: "چرا نشریه‌های دانشجویی بعد از یک شمار�
 lang: fa
 date: 2025-02-19
 datePrecision: month
-cover: /posts/images/pixel-publication-cover.png
+cover: /posts/images/pixel-publication-cover.webp
 ---
 
 این نوشته، بازنویسی وبلاگی یادداشت «How it started! How it’s going» است که در شمارهٔ چهارم نشریهٔ پیکسل، اسفند ۱۴۰۳، در صفحه‌های ۲۵ تا ۲۷ منتشر شد. [نسخهٔ اصلی نشریه در تلگرام](https://t.me/pub_sbu/11) در دسترس است.

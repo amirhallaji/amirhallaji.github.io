@@ -52,7 +52,13 @@ const BlogPost = () => {
         </Link>
         <header className={post.cover ? "blogCover" : "blogArticleHeader"}>
           {post.cover ? (
-            <img className="blogCoverImage" src={post.cover} alt="" />
+            <img
+              className="blogCoverImage"
+              src={post.cover}
+              alt=""
+              fetchPriority="high"
+              decoding="async"
+            />
           ) : null}
           <div className="blogCoverText">
             {post.date ? (
